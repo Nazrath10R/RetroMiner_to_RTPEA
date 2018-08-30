@@ -1,0 +1,40 @@
+{
+  "PXD": "ORF1P_HS_39",
+  "sequence": "MGKKQNRKTGNPKTQSASPPPKERSSSPATEQSWMENDFDELREEGFRRSNYSELREDIQTKGKEVENFEKNLEECITRITNTEKCLKELMELKTKARELREECRSLRSRCDQLEERVSAMEDEMNEMKREGKFREKRIKRNEQSLQEIWDYVKRPNLRLIGVPESDVENGTKLENTLQDIIQENFPNLARQANVQIQEIQRTPQRYSSRRATPRHIIVRFTKVEMKEKMLRAAREKGRVTLKGKPIRLTADLSAETLQARREWGPIFNILKEKNFQPRISYPAKLSFISEGEIKYFIDKQMLRDFVTTRPALKELLKEALNMERNNWYQPLQNHAKM",
+  "features": [
+    {
+      "type": "VARIANT",
+      "category": "VARIATION",
+      "description": "HS_39",
+      "alternativeSequence": "P",
+      "begin": "12",
+      "end": "12",
+      "Family": "HS",
+      "wildType": "S",
+      "consequence": "breast cell line diseased",
+      "consequence2": "breast cell line diseased",
+      "consequence3": "breast cancer",
+      "polyphenPrediction": "unknown",
+      "polyphenScore": 0,
+      "siftPrediction": "not tolerated, low value",
+      "siftScore": 0.1094
+    },
+    {
+      "type": "VARIANT",
+      "category": "VARIATION",
+      "description": "HS_39",
+      "alternativeSequence": "W",
+      "begin": "328",
+      "end": "328",
+      "Family": "HS",
+      "wildType": "R",
+      "consequence": "breast cell line diseased",
+      "consequence2": "breast cell line diseased",
+      "consequence3": "breast cancer",
+      "polyphenPrediction": "unknown",
+      "polyphenScore": 0,
+      "siftPrediction": "not tolerated, low value",
+      "siftScore": 0.1094
+    }
+  ]
+}

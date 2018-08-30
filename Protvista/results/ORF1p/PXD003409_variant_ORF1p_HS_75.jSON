@@ -1,0 +1,40 @@
+{
+  "PXD": "ORF1P_HS_75",
+  "sequence": "MGKKQNRKTGNSKTQSASPPPKERSSSPATEQSWMENDFDELREEGFRRSNYSELREDIQTKGKEVENFEKNLEECITRITNTEKCLKELMELKTKARELREECRSLRSRCDQLEERVSAMEDEMNEMKREGKFREKRIKRNEQNLQEIWDYVKRPNLRLIGVPESDVENGTKLENTLQDIIQENFPNLARQANVQIQEIQRTPQRYSSRRATPRHIIVRFTKVEMKEKMLRAAREKGRVTLKGKPIRLTADLSAETLQARREWGPIFNIVKEKNFQPRISYPAKLSFISEGEIKYFIDKQMLRDFVTTRPALKELLKEALNMERNNRYQPLQNHAKM",
+  "features": [
+    {
+      "type": "VARIANT",
+      "category": "VARIATION",
+      "description": "HS_75",
+      "alternativeSequence": "N",
+      "begin": "145",
+      "end": "145",
+      "Family": "HS",
+      "wildType": "S",
+      "consequence": "HUVEC",
+      "consequence2": "",
+      "consequence3": "healthy",
+      "polyphenPrediction": "unknown",
+      "polyphenScore": 0,
+      "siftPrediction": "not tolerated, low value",
+      "siftScore": 0.1454
+    },
+    {
+      "type": "VARIANT",
+      "category": "VARIATION",
+      "description": "HS_75",
+      "alternativeSequence": "V",
+      "begin": "271",
+      "end": "271",
+      "Family": "HS",
+      "wildType": "L",
+      "consequence": "HUVEC",
+      "consequence2": "",
+      "consequence3": "healthy",
+      "polyphenPrediction": "unknown",
+      "polyphenScore": 0,
+      "siftPrediction": "not tolerated, low value",
+      "siftScore": 0.1454
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "PXD": "ORF1P_HS_94",
+  "sequence": "MGKKQNRKTGNSKTQSASPPPKERSSSPATEQSWMENDFDELREEGFRRSNYSELREDIQTKGKEVENFEKNLEECITRITNTEKCLKELMELKTKARELREECRSLRSRCDQLEERVSAMEDEMNEMKREGKFREKRIKRNEQSLQEIWDYVKRPNLRLIGVPESDVENGTKLENTLQDIIQENFPNLARQANVQIQEIQRTPQRYSSRRATPRHIIVRFTKVEMKEKMLRAAREKGRVTLKGKPIRLTADLSAETLQARREWGPIFNILKDKNFQPRISYPAKLSFVSEGEIKYFTDKQMLRDFVTTRPALKELLKEALNMERNNRYQPLQNHAKM",
+  "features": [
+    {
+      "type": "VARIANT",
+      "category": "VARIATION",
+      "description": "HS_94",
+      "alternativeSequence": "D",
+      "begin": "273",
+      "end": "273",
+      "Family": "HS",
+      "wildType": "E",
+      "consequence": "blood serum diseased",
+      "consequence2": "blood serum diseased",
+      "consequence3": "metastic melanoma",
+      "polyphenPrediction": "unknown",
+      "polyphenScore": 0,
+      "siftPrediction": "not tolerated, low value",
+      "siftScore": 0.2875
+    },
+    {
+      "type": "VARIANT",
+      "category": "VARIATION",
+      "description": "HS_94",
+      "alternativeSequence": "V",
+      "begin": "289",
+      "end": "289",
+      "Family": "HS",
+      "wildType": "I",
+      "consequence": "blood serum diseased",
+      "consequence2": "blood serum diseased",
+      "consequence3": "metastic melanoma",
+      "polyphenPrediction": "unknown",
+      "polyphenScore": 0,
+      "siftPrediction": "not tolerated, low value",
+      "siftScore": 0.2875
+    },
+    {
+      "type": "VARIANT",
+      "category": "VARIATION",
+      "description": "HS_94",
+      "alternativeSequence": "T",
+      "begin": "298",
+      "end": "298",
+      "Family": "HS",
+      "wildType": "I",
+      "consequence": "blood serum diseased",
+      "consequence2": "blood serum diseased",
+      "consequence3": "metastic melanoma",
+      "polyphenPrediction": "unknown",
+      "polyphenScore": 0,
+      "siftPrediction": "not tolerated, low value",
+      "siftScore": 0.2875
+    }
+  ]
+}
