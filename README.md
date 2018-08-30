@@ -101,7 +101,7 @@ need to add a newly compiled PXD list
 sh combine_protvista_json_files.sh
 ```
 
-## ideogram data - <span style="color:blue">*DropBox*</span>
+## ideogram data - <span style="color:blue">DropBox</span>
 
 in data/variants/
 
