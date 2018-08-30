@@ -37,7 +37,7 @@ find . -name 'PXD*_parsed.txt' -exec mv -it ../final {} +
 ## visualise results
 
 ```
-result_interpretation.R
+Rscript result_interpretation.R
 ```
 
 ### collate output table
@@ -73,7 +73,7 @@ Rscript convert_results_to_json_working_final.R
 move all json files to new folder and put this script in there
 
 ```
-Fix_Json_ORF.py
+python Fix_Json_ORF.py
 ```
 
 move them out of the newly generated folder back out and delete generated folder 
@@ -100,7 +100,7 @@ need to add a newly compiled PXD list
 move all 1p and 2p files into seperate folders using 
 
 ```
-seperating_1p_2p.sh
+sh seperating_1p_2p.sh
 ```
 
 move /results/ to apoc for jq parsing
@@ -127,7 +127,7 @@ in data/variants/
 using sequences from data/variants/sequences
 
 ```
-ideogram.R
+Rscript ideogram.R
 ```
 
 
@@ -144,8 +144,6 @@ move to dropbox
 
 make a matrix with sizes and PXDs
 ```
-sizes.R
+Rscript sizes.R
 ```
-
-
 
