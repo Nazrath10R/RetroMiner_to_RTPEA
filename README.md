@@ -93,32 +93,13 @@ Rscript conversion_4.R
 need to add a newly compiled PXD list
 
 
-### to automate
+### merge into one file per protein
 
-/variants/results/
-
-move all 1p and 2p files into seperate folders using 
+/ProtVista/results/
 
 ```
-sh seperating_1p_2p.sh
+sh combine_protvista_json_files.sh
 ```
-
-move /results/ to apoc for jq parsing
-
-write a loop for the parsing to a new file per file
-```
-jq '.features[]' >> new.json
-echo COMMA
-```
-make sure inside commas are parsed
-replace COMMA and square brackets with actual commas
-add PXD and consensus sequence to the top
-finalise brackets above and below
-
-repeat for both proteins
-
-move folder back to DropBox
-
 
 ## ideogram data
 
