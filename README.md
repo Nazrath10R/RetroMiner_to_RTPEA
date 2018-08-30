@@ -6,7 +6,7 @@ Steps to retrieve data from RetroMiner and populate into MongoDB for RTPEA
 
 The last script of RetroMiner is "Data_filtering.sh", which uses a custom version of PeptideShakers' ReportCLI to write out tables with the protein identification information we need for all proteins 
 
-### Get RT data out
+### Get RT data out - <span style="color:blue">*Apocrita*</span>
 
 ```
 sh custom_report2.sh
@@ -19,7 +19,7 @@ loop requires a list of PXDs in a text file. write a way to automatically find t
 run second part of the script for the filtration
 awk commands filter RT protein lines out super fast and create LINE and HERV .txt files 
 
-### Create output table
+### Create output table - <span style="color:blue">*Apocrita*</span>
 
 creates one output table with all results
 
@@ -34,13 +34,13 @@ move all filtered files into final folder
 find . -name 'PXD*_parsed.txt' -exec mv -it ../final {} +
 ```
 
-## visualise results
+## visualise results - <span style="color:blue">*Apocrita*</span>
 
 ```
 Rscript result_interpretation.R
 ```
 
-### collate output table
+### collate output table - <span style="color:blue">*Apocrita*</span>
 
 
 ```
@@ -48,7 +48,7 @@ Rscript make_output_table.R
 ```
 
 
-## Table Data (DropBox)
+## Table Data - <span style="color:blue">*DropBox*</span>
 
 Table data
 
@@ -56,13 +56,13 @@ Table data
 /data/results/
 ```
 
-### add metadata
+### add metadata - <span style="color:blue">*DropBox*</span>
 
 ```
 Rscript adding_consequence_to_output_table.R
 ````
 
-### convert results to json
+### convert results to json - <span style="color:blue">*DropBox*</span>
 
 using example.json
 
@@ -80,7 +80,7 @@ move them out of the newly generated folder back out and delete generated folder
 
 
 
-## ProtVista data (DropBox)
+## ProtVista data - <span style="color:blue">*DropBox*</span>
 
 /variants/
 
@@ -93,7 +93,7 @@ Rscript conversion_4.R
 need to add a newly compiled PXD list
 
 
-### merge into one file per protein
+### merge into one file per protein - <span style="color:blue">*Apocrita*</span>
 
 /ProtVista/results/
 
@@ -101,7 +101,7 @@ need to add a newly compiled PXD list
 sh combine_protvista_json_files.sh
 ```
 
-## ideogram data
+## ideogram data - <span style="color:blue">*DropBox*</span>
 
 in data/variants/
 
@@ -112,9 +112,9 @@ Rscript ideogram.R
 ```
 
 
-## bar chart data
+## bar chart data - <span style="color:blue">*Apocrita*</span>
 
-on apocrita /outputs/
+on Apocrita /outputs/
 
 ```
 du -sh *
