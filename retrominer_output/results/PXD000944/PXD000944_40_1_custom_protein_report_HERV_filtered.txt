@@ -1,0 +1,1 @@
+3266	Q9N2K0	HERV-H_2q24.3 provirus ancestral Env polyprotein (ENH1_HUMAN)	HERV-H_2q24.3 provirus ancestral Env polyprotein (ENH1_HUMAN)						64.277192411661	38.53	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.8708272859216271	0	Not Validated

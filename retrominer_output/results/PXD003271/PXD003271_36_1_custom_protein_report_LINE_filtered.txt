@@ -1,0 +1,15 @@
+50	LINE_1_PA2_25_ORF2p								148.9121069801912	100.0	0.0	0.0	0	0.0							Single Protein	0	4	1	0	0	0	0	4	0.0	0	Not Validated
+166	LINE_1_PA2_8_ORF2p								149.19034210799282	100.0	0.0	0.0	0	0.0							Single Protein	0	3	1	0	0	0	0	3	0.0	0	Not Validated
+438	LINE_1_PA2_7_ORF2p								149.04725943267835	100.0	0.0	0.0	0	0.0							Single Protein	0	4	1	0	0	0	0	4	0.0	0	Not Validated
+528	LINE_1_PA2_17_ORF2p								149.0158661429828	100.0	0.0	0.0	0	0.0							Single Protein	0	3	1	0	0	0	0	3	0.0	0	Not Validated
+1121	LINE_1_HS_25_ORF2p								148.80476889687267	100.0	0.0	0.0	0	0.0							Single Protein	0	3	1	0	0	0	0	3	0.0	0	Not Validated
+1559	LINE_1_PA2_19_ORF2p								149.00589502598584	100.0	0.0	0.0	0	0.0							Single Protein	0	3	1	0	0	0	0	3	0.0	0	Not Validated
+1776	LINE_1_HS_110_ORF2p								148.89704375371457	100.0	0.0	0.0	0	0.0							Related Proteins	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+1917	Q5T7N2	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	ENSG00000240563	L1TD1	1			98.7885850767177	90.4	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1997	LINE_1_HS_96_ORF1p								40.063704778255996	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1999	LINE_1_PA2_20_ORF1p								39.967526839296994	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2732	LINE_1_HS_37_ORF1p								40.08881570860397	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2808	LINE_1_PA2_2_ORF2p								149.1612474964153	100.0	0.0	0.0	0	0.0							Single Protein	0	4	1	0	0	0	0	4	0.0	0	Not Validated
+3543	LINE_1_PA2_23_ORF2p								149.30106235777478	100.0	0.0	0.0	0	0.0							Single Protein	0	4	1	0	0	0	0	4	0.0	0	Not Validated
+3683	LINE_1_HOT_4_ORF2p								148.89809249481218	100.0	0.0	0.0	0	0.0							Related Proteins	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+3867	LINE_1_PA2_32_ORF1p								39.99465479128847	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

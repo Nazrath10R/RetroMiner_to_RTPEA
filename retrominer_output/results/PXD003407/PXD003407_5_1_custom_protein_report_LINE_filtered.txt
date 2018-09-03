@@ -1,0 +1,1 @@
+2813	LINE_1_PA2_14_ORF1p								40.13277317508563	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

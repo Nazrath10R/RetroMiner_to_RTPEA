@@ -1,0 +1,5 @@
+212	LINE_1_PA3_1_ORF2p								149.21115649205106	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+270	LINE_1_HS_14_ORF1p								40.10668812513234	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+559	LINE_1_HS_74_ORF1p								40.07271163745824	100.0	0.0	0.0	0	NaN							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+965	LINE_1_HS_52_ORF2p								148.7279579754853	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2697	LINE_1_HS_78_ORF2p								149.18409819152293	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

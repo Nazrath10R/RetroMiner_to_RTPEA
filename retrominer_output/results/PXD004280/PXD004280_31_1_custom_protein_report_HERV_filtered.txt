@@ -1,0 +1,1 @@
+4213	Q9N2K0	HERV-H_2q24.3 provirus ancestral Env polyprotein (ENH1_HUMAN)	HERV-H_2q24.3 provirus ancestral Env polyprotein (ENH1_HUMAN)						64.277192411661	38.53	3.42	0.0	0	0.0	Oxidation of M(M566)	Oxidation of M(1)					Single Protein	1	1	1	1	0	0	0	1	38.50974930362116	0	Not Validated

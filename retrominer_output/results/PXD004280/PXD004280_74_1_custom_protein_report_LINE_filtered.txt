@@ -1,0 +1,6 @@
+2033	Q5T7N2	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	ENSG00000240563	L1TD1	1			98.7885850767177	83.58	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	4.8309178743961345	0	Not Validated
+2210	LINE_1_HS_94_ORF1p								39.99063338713755	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	3	34.54317897371715	0	Not Validated
+2695	LINE_1_HS_116_ORF2p								148.9288851046055	97.8	0.0	0.0	0	0.0							Related Proteins	0	2	0	0	0	0	0	2	4.900332225913617	0	Not Validated
+3132	LINE_1_PA2_34_ORF1p								39.97754760890825	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	5.6737588652482245	0	Not Validated
+3540	LINE_1_PA2_31_ORF2p		LINE-1 retrotransposable element ORF2 protein (LORF2_HUMAN)						148.912037580302	97.8	0.0	0.0	0	0.0							Related Proteins	0	1	0	0	0	0	0	1	11.989795918367353	0	Not Validated
+3669	LINE_1_HS_105_ORF1p								40.11875350227022	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	4.900332225913617	0	Not Validated

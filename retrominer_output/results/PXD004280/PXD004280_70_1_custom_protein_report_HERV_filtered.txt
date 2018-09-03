@@ -1,0 +1,1 @@
+1691	P62684	Endogenous retrovirus group K member 113 Gag polyprotein (GA113_HUMAN)	Endogenous retrovirus group K member 113 Gag polyprotein (GA113_HUMAN), Endogenous retrovirus group K member 10 Gag polyprotein (GAK10_HUMAN)		HERVK_113				73.990554049783	69.97	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	4.641350210970463	0	Not Validated

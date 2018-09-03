@@ -1,0 +1,10 @@
+36	LINE_1_PA2_25_ORF2p								148.9121069801912	100.0	0.0	0.0	0	0.0							Single Protein	0	2	0	0	0	0	0	2	0.0	0	Not Validated
+381	LINE_1_PA2_7_ORF2p								149.04725943267835	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+388	LINE_1_PA2_15_ORF1p								39.8866500827475	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+396	LINE_1_HS_97_ORF1p								40.0166854227104	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+399	LINE_1_PA2_15_ORF2p								148.9229648517709	100.0	0.0	0.0	0	0.0							Single Protein	0	2	0	0	0	0	0	2	0.0	0	Not Validated
+1598	LINE_1_PA2_22_ORF1p								40.01862446224663	100.0	5.62	0.0	0	16.723678742346124	Oxidation of M(M30, M35)	Oxidation of M(2)					Single Protein	1	1	1	1	0	0	1	1	88.03418803418803	0	Not Validated
+2055	LINE_1_HOT_2_ORF2p								148.98000023422009	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	0	0	0	0	0	1	30.303030303030297	0	Not Validated
+2891	LINE_1_PA2_29_ORF2p								148.8458338546847	100.0	0.0	0.0	0	0.0							Single Protein	0	2	0	0	0	0	0	2	0.0	0	Not Validated
+3218	LINE_1_HS_108_ORF2p								149.0952194691471	100.0	0.0	0.0	0	0.0							Single Protein	0	2	0	0	0	0	0	2	0.0	0	Not Validated
+3261	LINE_1_HS_42_ORF1p								40.064649037201676	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	17.924528301886788	0	Not Validated

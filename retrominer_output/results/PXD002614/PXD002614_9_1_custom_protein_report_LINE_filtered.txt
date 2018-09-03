@@ -1,0 +1,1 @@
+102	LINE_1_HOT_4_ORF1p								40.10773099300384	100.0	0.0	0.0	0	NaN							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated

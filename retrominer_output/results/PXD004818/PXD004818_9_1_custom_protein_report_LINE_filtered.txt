@@ -1,0 +1,1 @@
+151	LINE_1_HS_69_ORF2p								149.0080427677384	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

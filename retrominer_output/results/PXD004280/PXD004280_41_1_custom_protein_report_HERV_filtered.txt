@@ -1,0 +1,1 @@
+914	C9JL84	HERV-H LTR-associating protein 1 (HHLA1_HUMAN)	HERV-H LTR-associating protein 1 (HHLA1_HUMAN)	ENSG00000132297	HHLA1	8			58.259316452279485	69.49	1.69	0.0	0	0.0	Propionamide of C(C523)	Propionamide of C(1)					Single Protein	1	1	1	1	0	0	0	1	27.802690582959645	0	Not Validated

@@ -1,0 +1,15 @@
+274	LINE_1_PA2_35_ORF2p								148.67792862410002	97.41	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1935	Q5T7N2	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	ENSG00000240563	L1TD1	1			98.7885850767177	83.58	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2017	LINE_1_PA2_4_ORF1p								39.78558779976077	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2568	LINE_1_HS_39_ORF2p								148.95806350318304	97.57	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+2615	LINE_1_HOT_4_ORF1p								40.10773099300384	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3313	LINE_1_PA2_29_ORF2p								148.8458338546847	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3497	LINE_1_PA2_23_ORF2p								149.30106235777478	100.0	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+4314	LINE_1_PA2_15_ORF2p								148.9229648517709	100.0	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+5310	LINE_1_PA2_31_ORF2p								148.912037580302	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+5352	LINE_1_PA2_19_ORF2p								149.00589502598584	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+6366	LINE_1_PA2_14_ORF1p								40.13277317508563	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+6643	O00370	LINE-1 retrotransposable element ORF2 protein (LORF2_HUMAN)	LINE-1 retrotransposable element ORF2 protein (LORF2_HUMAN)						148.91709109782983	100.0	0.94	0.0	0	2.8119850046692934	Oxidation of M(M625)	Oxidation of M(1)					Related Proteins	1	2	1	1	0	0	1	2	78.57142857142857	0	Not Validated
+6789	LINE_1_HS_103_ORF2p								148.79080173473773	100.0	0.0	0.0	0	0.0							Related Proteins	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+6830	LINE_1_PA2_28_ORF2p								149.01814348483924	100.0	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+7496	LINE_1_HS_22_ORF2p								148.90200876518824	100.0	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated

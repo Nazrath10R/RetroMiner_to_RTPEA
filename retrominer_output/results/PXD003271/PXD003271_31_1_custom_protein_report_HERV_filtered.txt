@@ -1,0 +1,2 @@
+1140	Q9UM44	HERV-H LTR-associating protein 2 (HHLA2_HUMAN)	HERV-H LTR-associating protein 2 (Fragment) (H7C523_HUMAN), HERV-H LTR-associating protein 2 (HHLA2_HUMAN)	ENSG00000114455	HHLA2	3			46.82016859194531	66.67	0.0	0.0	0	NaN							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1604	Q9XRX5	HERV-H LTR-associating protein 3 (HHLA3_HUMAN)	HERV-H LTR-associating protein 3 (HHLA3_HUMAN)	ENSG00000197568	HHLA3	1			12.904253394457427	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

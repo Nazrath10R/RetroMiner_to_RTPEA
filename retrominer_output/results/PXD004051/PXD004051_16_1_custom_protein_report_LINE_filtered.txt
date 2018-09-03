@@ -1,0 +1,1 @@
+799	O00370	LINE-1 retrotransposable element ORF2 protein (LORF2_HUMAN)	LINE-1 retrotransposable element ORF2 protein (LORF2_HUMAN)						148.91709109782983	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	4.431314623338256	0	Not Validated

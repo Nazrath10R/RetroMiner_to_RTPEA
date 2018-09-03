@@ -1,0 +1,15 @@
+232	LINE_1_PA2_35_ORF2p								148.67792862410002	97.41	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+438	LINE_1_HS_7_ORF2p								149.0250686310498	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1345	LINE_1_HS_59_ORF2p								148.9660798219535	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1890	Q9UN81	LINE-1 retrotransposable element ORF1 protein (LORF1_HUMAN)	LINE-1 retrotransposable element ORF1 protein (LORF1_HUMAN)		L1RE1				40.03070107277454	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	0	0	0	0	0	1	0.0	0	Not Validated
+2284	LINE_1_PA2_12_ORF1p								40.12973310117882	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	10.256410256410254	0	Not Validated
+3363	LINE_1_PA2_25_ORF1p								40.051678757106835	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3577	LINE_1_PA3_1_ORF1p								40.268767254841386	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3993	LINE_1_HS_101_ORF2p								149.10104513580725	100.0	0.0	0.0	0	0.0							Related Proteins	0	2	2	0	0	0	0	2	18.354430379746834	0	Not Validated
+4067	LINE_1_HS_114_ORF1p								40.07366712979398	90.53	0.0	0.0	0	0.0							Related Proteins	0	1	0	0	0	0	0	1	0.0	0	Not Validated
+4267	LINE_1_HS_82_ORF2p								149.16923598824175	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+4943	LINE_1_HS_2_ORF2p								149.03408694104954	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+5446	LINE_1_HS_106_ORF2p								148.8120419798928	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+5701	LINE_1_HS_20_ORF2p								149.19102337190012	100.0	0.0	0.0	0	0.0							Single Protein	0	2	2	0	0	0	0	2	8.163265306122447	0	Not Validated
+5738	LINE_1_HOT_1_ORF2p								149.03613694290678	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+5740	LINE_1_PA2_34_ORF2p								149.0228952582831	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

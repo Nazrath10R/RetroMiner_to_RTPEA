@@ -1,0 +1,8 @@
+953	LINE_1_HS_100_ORF2p								148.85780102354502	100.0	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+1178	LINE_1_HS_1_ORF1p								39.89555604833363	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1427	LINE_1_HS_42_ORF2p								149.07193929083968	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1592	LINE_1_PA2_29_ORF1p								39.811399456149516	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2017	LINE_1_HS_92_ORF2p								149.00114995011864	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2141	LINE_1_HOT_4_ORF1p								40.10773099300384	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2175	LINE_1_PA2_32_ORF1p								39.99465479128847	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	2	38.888888888888886	0	Not Validated
+2215	LINE_1_PA2_4_ORF2p								149.146162523115	100.0	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated

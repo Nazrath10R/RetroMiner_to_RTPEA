@@ -1,0 +1,6 @@
+4234	LINE_1_HS_39_ORF2p								148.95806350318304	97.57	2.2	0.0	0	2.990916675935412	Oxidation of M(M1248)	Oxidation of M(1)					Single Protein	1	4	1	1	0	0	1	4	93.98148148148148	0	Not Validated
+4295	LINE_1_HS_67_ORF2p								148.75192945223836	100.0	0.0	0.0	0	0.0							Single Protein	0	5	1	0	0	0	0	5	0.0	0	Not Validated
+4777	LINE_1_HS_20_ORF2p								149.19102337190012	100.0	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+4842	LINE_1_PA2_34_ORF2p								149.0228952582831	100.0	0.0	0.0	0	0.0							Single Protein	0	4	2	0	0	0	0	4	26.470588235294112	0	Not Validated
+5831	LINE_1_PA2_23_ORF2p								149.30106235777478	100.0	0.0	0.0	0	0.0							Single Protein	0	3	2	0	0	0	0	3	0.0	0	Not Validated
+6079	LINE_1_PA2_6_ORF2p								148.9666995140668	100.0	0.0	0.0	0	0.0							Single Protein	0	4	1	0	0	0	0	4	0.0	0	Not Validated

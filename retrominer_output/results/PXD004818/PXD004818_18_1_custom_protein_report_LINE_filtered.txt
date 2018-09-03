@@ -1,0 +1,1 @@
+197	LINE_1_PA2_3_ORF1p								39.939517354325794	100.0	0.0	0.0	0	NaN							Single Protein	0	2	2	0	0	0	0	2	5.154639175257736	0	Not Validated

@@ -1,0 +1,1 @@
+2054	LINE_1_HS_34_ORF2p								149.0531482358665	97.8	0.0	0.0	0	0.0							Related Proteins	0	2	2	0	0	0	0	2	12.35216819973719	0	Not Validated

@@ -1,0 +1,2 @@
+17	P62684	Endogenous retrovirus group K member 113 Gag polyprotein (GA113_HUMAN)	Endogenous retrovirus group K member 113 Gag polyprotein (GA113_HUMAN), Endogenous retrovirus group K member 19 Gag polyprotein (GAK19_HUMAN)		HERVK_113				73.990554049783	69.97	0.0	0.0	0	NaN							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3016	Q9N2K0	HERV-H_2q24.3 provirus ancestral Env polyprotein (ENH1_HUMAN)	HERV-H_2q24.3 provirus ancestral Env polyprotein (ENH1_HUMAN)						64.277192411661	38.53	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

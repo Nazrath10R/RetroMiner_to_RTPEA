@@ -1,0 +1,2 @@
+2313	C9JY47	HERV-H LTR-associating protein 1 (C9JY47_HUMAN)	HERV-H LTR-associating protein 1 (C9JY47_HUMAN)	ENSG00000132297	HHLA1	8			59.36708340951655	84.71	3.31	0.0	0	5.077419501023662	Oxidation of M(M70)	Oxidation of M(1)					Single Protein	1	1	1	1	0	0	1	1	83.42245989304813	0	Not Validated
+2701	E9PSC4	HERV-H LTR-associating protein 3 (E9PSC4_HUMAN)	HERV-H LTR-associating protein 3 (E9PSC4_HUMAN)	ENSG00000197568	HHLA3	1			8.451272708965357	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

@@ -1,0 +1,2 @@
+1838	LINE_1_HS_116_ORF2p								148.9288851046055	94.2	0.94	0.0	0	0.0							Single Protein	1	1	1	1	0	0	0	2	50.74349442379182	0	Not Validated
+3071	LINE_1_HS_2_ORF2p								149.03408694104954	94.2	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated

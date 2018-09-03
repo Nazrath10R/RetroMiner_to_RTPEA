@@ -1,0 +1,46 @@
+PXD	disease	study	tissue_type	file	sample	replicate	ORF1p	ORF2p	ORF0	ORF1p_variants	ORF2p_variants	HERV_proteins	PTMs	notes	validated_peptides	peptides	psm	unique_peptides
+PXD002211	none	inflammation	HUVEC	HUVEC_IL1b1a_sn.mgf	1	1	0	0	0	0	0	0	0					
+PXD002211	none	inflammation	HUVEC	HUVEC_IL1b1b_sn.mgf	1	1	0	0	0	0	0	0	0					
+PXD002211	none	inflammation	HUVEC	HUVEC_IL1b2a_sn.mgf	2	1												
+PXD002211	none	inflammation	HUVEC	HUVEC_IL1b2b_sn.mgf	2	1												
+PXD002211	none	inflammation	HUVEC	HUVEC_IL1b3a_sn.mgf	3	1												
+PXD002211	none	inflammation	HUVEC	HUVEC_IL1b3b_sn.mgf	3	1												
+PXD002212	none	control	HUVEC	HUVEC_con1a_sn.mgf	1	1	52.63157895	0	0	LINE_1_HS_78_ORF2p	0	0	0		0	1	1	1
+PXD002212	none	control	HUVEC	HUVEC_con1b_sn.mgf	1	1	should be merged sample_wise or split by runs											
+PXD002212	none	control	HUVEC	HUVEC_con2a_sn.mgf	2	1	0	0	0	0	0	0	0					
+PXD002212	none	control	HUVEC	HUVEC_con2b_sn.mgf	2	1	0	0	0	0	0	0	0					
+PXD002212	none	control	HUVEC	HUVEC_con3a_sn.mgf	3	1	0	0	0	0	0	0	0					
+PXD004624	cachectic_melanoma_high_load	cancer	serum samples	cachectic_melanoma_serum_1a.mgf	1	1	78.57142857	0	0	LINE_1_HS_94_ORF1p	0	0	0		1	1	1	1
+PXD004624	cachectic_melanoma_high_load	cancer	serum samples	cachectic_melanoma_serum_1b.mgf	1	1	same as above											
+PXD004624	cachectic_melanoma_high_load	cancer	serum samples	cachectic_melanoma_serum_2a.mgf	2	1	0	0	0	0	0	0	0					
+PXD004624	cachectic_melanoma_high_load	cancer	serum samples	cachectic_melanoma_serum_2b.mgf	2	1	same as above											
+PXD004624	cachectic_melanoma_high_load	cancer	serum samples	cachectic_melanoma_serum_3a.mgf	3	1	46.15384615	0	0	LINE_1_HS_94_ORF1p	0	0	0		1	1	2	1
+PXD004624	cachectic_melanoma_high_load	cancer	serum samples	cachectic_melanoma_serum_3b.mgf	3	1	same as above											
+PXD004625	non-cachectic_melanoma_low_load	cancer	serum samples	non-cachectic_melanoma_serum_1a.mgf	1	1	28.7	11.5	0	LINE_1_HS_94_ORF1p	LINE_1_HS_116_ORF2p	0	0		one each 	need a split here to separate results move this section to another table!		
+PXD004625	non-cachectic_melanoma_low_load	cancer	serum samples	non-cachectic_melanoma_serum_1b.mgf	1	1	same as above											
+PXD004625	non-cachectic_melanoma_low_load	cancer	serum samples	non-cachectic_melanoma_serum_2a.mgf	2	1	0	0	0	0	0	0	0					
+PXD004625	non-cachectic_melanoma_low_load	cancer	serum samples	non-cachectic_melanoma_serum_2b.mgf	2	1	same as above											
+PXD004625	non-cachectic_melanoma_low_load	cancer	serum samples	non-cachectic_melanoma_serum_3a.mgf	3	1	0	0	0	0	0	0	0					
+PXD004625	non-cachectic_melanoma_low_load	cancer	serum samples	non-cachectic_melanoma_serum_3b.mgf	3	1	same as above											
+PXD004626	control_serum	cancer	serum samples	control_serum_1a.mgf	1	1	0	0	0	0	0	0	0					
+PXD004626	control_serum	cancer	serum samples	control_serum_1b.mgf	1	1	same as above											
+PXD004626	control_serum	cancer	serum samples	control_serum_2a.mgf	2	1	0	22.34042553	0	0	0	0	0					
+PXD004626	control_serum	cancer	serum samples	control_serum_2b.mgf	2	1	same as above											
+PXD004626	control_serum	cancer	serum samples	control_serum_3a.mgf	3	1	0	0	0	0	0	0	0					
+PXD004626	control_serum	cancer	serum samples	control_serum_3b.mgf	3	1	same as above											
+PXD001694	healthy			mascot_daemon_merge.mgf	7	1	"60.3238866396761, 34.004884004884"	0	0	"LINE_1_PA2_35_ORF1p, LINE_1_HS_9_ORF1p"	0	"Q9N2K0,C9JL84,Q9N2J8 - 11.735941320293398,6.212495587716205,6.8840579710144905"	0		É			
+PXD001694	healthy			mascot_daemon_merge_1.mgf	8	1												
+PXD001694	healthy			mascot_daemon_merge_2.mgf	9	1												
+PXD003965	healthy			NHDF_IL1beta_sn_1_1.mgf	1	1	9.677419355	20	0	LINE_1_HS_94_ORF1p	LINE_1_HS_59_ORF2p	0	0					
+PXD003965	healthy			NHDF_IL1beta_sn_1_2.mgf	1	2	same as above											
+PXD003965	healthy			NHDF_IL1beta_sn_2_1.mgf	2	1												
+PXD003965	healthy			NHDF_IL1beta_sn_2_2.mgf	2	2												
+PXD003965	healthy			NHDF_IL1beta_sn_3_1.mgf	3	1												
+PXD003965	healthy			NHDF_IL1beta_sn_3_2.mgf	3	1												
+																		
+																		
+																		
+																		
+"it's not obvious which one is a variant, which one is a consensus"																		
+I need to split runs 		"sample first, files after"																
+move identification section elsewhere. It's too confusing																		

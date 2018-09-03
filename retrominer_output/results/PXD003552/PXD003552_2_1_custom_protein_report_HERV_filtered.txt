@@ -1,0 +1,1 @@
+1212	C9JL84	HERV-H LTR-associating protein 1 (HHLA1_HUMAN)	HERV-H LTR-associating protein 1 (HHLA1_HUMAN)	ENSG00000132297	HHLA1	8			58.259316452279485	90.02	0.0	0.0	0	0.0							Single Protein	0	2	2	0	0	0	0	2	0.0	0	Not Validated

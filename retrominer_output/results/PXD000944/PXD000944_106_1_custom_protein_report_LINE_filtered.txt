@@ -1,0 +1,6 @@
+766	LINE_1_HS_3_ORF2p								148.94408739234837	90.67	0.0	0.0	0	0.0							Single Protein	0	3	1	0	0	0	0	3	0.0	0	Not Validated
+1218	LINE_1_PA2_29_ORF2p								148.8458338546847	92.47	0.0	0.0	0	0.0							Related Proteins	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+1405	LINE_1_HS_25_ORF2p								148.80476889687267	92.46	0.0	0.0	0	0.0							Single Protein	0	4	2	0	0	0	0	4	0.0	0	Not Validated
+1884	LINE_1_PA2_5_ORF2p								149.05302853173995	90.67	0.0	0.0	0	0.0							Single Protein	0	3	1	0	0	0	0	3	0.0	0	Not Validated
+2353	Q5T7N2	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	ENSG00000240563	L1TD1	1			98.7885850767177	80.81	0.0	0.0	0	0.0							Single Protein	0	2	2	0	0	0	0	3	0.0	0	Not Validated
+2457	LINE_1_HS_117_ORF2p								149.13206265123594	92.47	0.0	0.0	0	0.0							Single Protein	0	3	1	0	0	0	0	3	0.0	0	Not Validated

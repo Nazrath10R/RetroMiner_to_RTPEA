@@ -1,0 +1,16 @@
+470	LINE_1_PA2_15_ORF2p								148.9229648517709	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+546	LINE_1_PA2_17_ORF2p								149.0158661429828	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+812	LINE_1_HS_114_ORF1p								40.07366712979398	90.53	0.0	0.0	0	NaN							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+817	LINE_1_HS_58_ORF1p								40.08775239715475	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1040	LINE_1_PA2_16_ORF2p								149.32925021592055	100.0	0.0	0.0	0	NaN							Single Protein	0	2	2	0	0	0	0	2	0.0	0	Not Validated
+1302	LINE_1_HS_52_ORF2p								148.7279579754853	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1872	Q5T7N2	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	ENSG00000240563	L1TD1	1			98.7885850767177	90.4	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2734	LINE_1_HS_37_ORF1p								40.08881570860397	100.0	0.0	0.0	0	NaN							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2899	LINE_1_PA2_34_ORF2p								149.0228952582831	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3055	LINE_1_HS_21_ORF2p								149.10213225144918	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3302	LINE_1_PA2_29_ORF2p								148.8458338546847	100.0	0.0	0.0	0	NaN							Single Protein	0	2	2	0	0	0	0	2	0.0	0	Not Validated
+3534	LINE_1_PA2_23_ORF2p								149.30106235777478	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3748	LINE_1_HS_72_ORF2p								148.87197439631174	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3814	LINE_1_PA2_32_ORF1p								39.99465479128847	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3831	LINE_1_PA2_32_ORF2p								148.88382772375846	100.0	0.0	0.0	0	NaN							Single Protein	0	2	2	0	0	0	0	2	0.0	0	Not Validated
+3833	LINE_1_HS_122_ORF2p								148.95999985738058	100.0	0.0	0.0	0	NaN							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated

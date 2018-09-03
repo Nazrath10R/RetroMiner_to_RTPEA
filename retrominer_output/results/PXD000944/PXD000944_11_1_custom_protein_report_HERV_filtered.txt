@@ -1,0 +1,2 @@
+1046	P61576	Endogenous retrovirus group K member 104 Rec protein (REC04_HUMAN)	Endogenous retrovirus group K member 104 Rec protein (REC04_HUMAN)		HERV-K104				11.727054690419015	73.33	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+4346	C9JL84	HERV-H LTR-associating protein 1 (HHLA1_HUMAN)	HERV-H LTR-associating protein 1 (HHLA1_HUMAN), HERV-H LTR-associating protein 1 (C9JY47_HUMAN)	ENSG00000132297	HHLA1	8			58.259316452279485	74.01	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated

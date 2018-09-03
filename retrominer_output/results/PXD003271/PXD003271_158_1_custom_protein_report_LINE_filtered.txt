@@ -1,0 +1,15 @@
+724	LINE_1_PA2_15_ORF2p								148.9229648517709	100.0	0.0	0.0	0	0.0							Related Proteins	0	4	1	0	0	0	0	4	0.0	0	Not Validated
+856	LINE_1_HS_40_ORF2p								148.94403324860056	100.0	0.0	0.0	0	0.0							Single Protein	0	5	1	0	0	0	0	5	0.0	0	Not Validated
+969	LINE_1_HS_19_ORF2p								149.06403259697754	100.0	0.0	0.0	0	0.0							Single Protein	0	4	1	0	0	0	0	4	0.0	0	Not Validated
+1196	LINE_1_HS_25_ORF2p								148.80476889687267	100.0	0.0	0.0	0	0.0							Single Protein	0	6	2	0	0	0	0	6	0.0	0	Not Validated
+1290	LINE_1_HS_122_ORF2p								148.95999985738058	100.0	0.0	0.0	0	0.0							Single Protein	0	5	1	0	0	0	0	5	0.0	0	Not Validated
+1550	LINE_1_HS_93_ORF1p								40.10669196464282	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1914	LINE_1_HS_68_ORF2p								148.88997506501806	100.0	0.0	0.0	0	0.0							Single Protein	0	6	2	0	0	0	0	6	0.0	0	Not Validated
+2633	LINE_1_HS_70_ORF2p								148.95696580577393	100.0	0.0	0.0	0	0.0							Single Protein	0	4	2	0	0	0	0	4	0.0	0	Not Validated
+2751	LINE_1_PA2_30_ORF1p								40.033643909334934	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3095	LINE_1_PA2_2_ORF2p								149.1612474964153	100.0	0.0	0.0	0	0.0							Single Protein	0	5	1	0	0	0	0	5	0.0	0	Not Validated
+3147	LINE_1_HS_100_ORF2p								148.85780102354502	100.0	0.0	0.0	0	0.0							Single Protein	0	5	1	0	0	0	0	5	0.0	0	Not Validated
+3950	LINE_1_PA2_23_ORF2p								149.30106235777478	100.0	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+4132	LINE_1_HS_92_ORF1p								39.95465853925623	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+4224	LINE_1_HS_37_ORF2p								149.01625877229165	100.0	0.0	0.0	0	0.0							Related Proteins	0	3	1	0	0	0	0	3	0.0	0	Not Validated
+4303	LINE_1_PA2_32_ORF2p								148.88382772375846	100.0	0.0	0.0	0	0.0							Single Protein	0	5	1	0	0	0	0	5	0.0	0	Not Validated

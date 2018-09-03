@@ -1,0 +1,1 @@
+1595	C9JY47	HERV-H LTR-associating protein 1 (C9JY47_HUMAN)	HERV-H LTR-associating protein 1 (C9JY47_HUMAN)	ENSG00000132297	HHLA1	8			59.36708340951655	90.24	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

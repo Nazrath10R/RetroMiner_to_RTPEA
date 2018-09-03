@@ -1,0 +1,2 @@
+1118	C9JL84	HERV-H LTR-associating protein 1 (HHLA1_HUMAN)	HERV-H LTR-associating protein 1 (HHLA1_HUMAN)	ENSG00000132297	HHLA1	8			58.259316452279485	69.49	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2471	P63132	Endogenous retrovirus group K member 113 Pol protein (PO113_HUMAN)	Endogenous retrovirus group K member 113 Pol protein (PO113_HUMAN)		HERVK_113				107.69793597531351	77.2	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	31.428571428571427	0	Not Validated

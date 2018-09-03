@@ -1,0 +1,8 @@
+316	LINE_1_HS_116_ORF2p								148.9288851046055	97.8	0.0	0.0	0	0.0							Related Proteins	0	1	0	0	0	0	0	1	0.0	0	Not Validated
+786	LINE_1_HS_55_ORF1p								40.05873237290283	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	27.23214285714286	0	Not Validated
+811	LINE_1_HS_7_ORF2p								149.0250686310498	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1705	LINE_1_PA2_21_ORF2p								149.02109216045903	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3849	O00370	LINE-1 retrotransposable element ORF2 protein (LORF2_HUMAN)	LINE-1 retrotransposable element ORF2 protein (LORF2_HUMAN)						148.91709109782983	97.8	0.0	0.0	0	0.0							Related Proteins	0	1	0	0	0	0	0	1	0.0	0	Not Validated
+4418	LINE_1_HS_85_ORF2p								149.02002435787637	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+4879	LINE_1_PA2_34_ORF2p								149.0228952582831	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+6362	LINE_1_PA2_25_ORF2p								148.9121069801912	97.8	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	29.11392405063291	0	Not Validated

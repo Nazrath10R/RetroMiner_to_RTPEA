@@ -1,0 +1,3 @@
+1220	LINE_1_HS_40_ORF2p								148.94403324860056	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	45.16331658291457	0	Not Validated
+1841	LINE_1_HS_116_ORF2p								148.9288851046055	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	56.25	0	Not Validated
+2308	LINE_1_HS_24_ORF2p								148.9620251860146	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	45.16331658291457	0	Not Validated

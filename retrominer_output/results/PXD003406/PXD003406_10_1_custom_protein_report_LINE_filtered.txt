@@ -1,0 +1,1 @@
+3827	LINE_1_HS_19_ORF2p		LINE-1 retrotransposable element ORF2 protein (LORF2_HUMAN)						149.06403259697754	97.8	0.63	0.0	0	1.3184931641541366							Related Proteins	1	1	1	1	0	0	1	1	54.563894523326574	0	Not Validated

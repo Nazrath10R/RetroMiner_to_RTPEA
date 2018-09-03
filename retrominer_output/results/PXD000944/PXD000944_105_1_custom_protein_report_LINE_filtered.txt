@@ -1,0 +1,10 @@
+196	LINE_1_HS_5_ORF2p								149.06403393439027	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+229	LINE_1_PA2_35_ORF2p								148.67792862410002	95.21	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+890	LINE_1_HS_1_ORF1p								39.89555604833363	100.0	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+993	LINE_1_PA2_18_ORF2p								148.9290980128139	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+2277	LINE_1_HS_67_ORF2p								148.75192945223836	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+2429	LINE_1_HS_37_ORF1p								40.08881570860397	100.0	0.0	0.0	0	0.0							Related Proteins	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+2633	LINE_1_HS_84_ORF1p		Glomulin (GLMN_HUMAN)						40.029698429922256	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+2874	LINE_1_HS_42_ORF2p								149.07193929083968	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+3126	LINE_1_HS_41_ORF2p								148.92502341219284	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+3188	LINE_1_PA2_23_ORF2p								149.30106235777478	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

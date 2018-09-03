@@ -1,0 +1,1 @@
+1052	LINE_1_HS_30_ORF1p								39.919632658861545	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	34.55882352941176	0	Not Validated

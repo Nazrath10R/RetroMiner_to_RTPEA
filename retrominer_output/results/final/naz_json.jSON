@@ -1,0 +1,37 @@
+{
+  "1": [
+    {
+      "Dataset": "PXD000944",
+      "Study": "NA",
+      "Disease": "breast_cancer_or_breast_cancer_cell_line",
+      "Tissue": "NA",
+      "no_of_samples": 4
+    }
+  ],
+  "Sample": [
+      {
+        "Replicate": 1,
+        "State": "NA",
+        "ORF1p": 0,
+        "ORF2p": 0,
+        "ORF0": 0,
+        "ORF1p_variants": "0",
+        "ORF2p_variants": "ORF2p_PA2_17_(64.436),ORF2p_HS_112_(18.315),ORF2p_HS_111_(6.821),ORF2p_PA2_14_(6.517)",
+        "HERV_proteins": "0",
+        "PTMs": "NA"
+      },
+    [
+      {
+        "Replicate": 1,
+        "State": "NA",
+        "ORF1p": 48.6574,
+        "ORF2p": 43.4426,
+        "ORF0": 0,
+        "ORF1p_variants": "0",
+        "ORF2p_variants": "0",
+        "HERV_proteins": "0",
+        "PTMs": "NA"
+      }
+    ]
+  ]
+}

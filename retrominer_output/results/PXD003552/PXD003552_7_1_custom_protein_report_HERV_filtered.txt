@@ -1,0 +1,1 @@
+4655	C9J7D0	HERV-H LTR-associating protein 2 (C9J7D0_HUMAN)	HERV-H LTR-associating protein 2 (C9J7D0_HUMAN), HERV-H LTR-associating protein 2 (Fragment) (H7C523_HUMAN), HERV-H LTR-associating protein 2 (HHLA2_HUMAN)	ENSG00000114455	HHLA2	3			44.948222303298756	65.24	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated

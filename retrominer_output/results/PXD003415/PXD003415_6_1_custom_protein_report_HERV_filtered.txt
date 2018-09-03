@@ -1,0 +1,1 @@
+34	Q9XRX5	HERV-H LTR-associating protein 3 (HHLA3_HUMAN)	HERV-H LTR-associating protein 3 (E9PSC4_HUMAN), HERV-H LTR-associating protein 3 (HHLA3_HUMAN)	ENSG00000197568	HHLA3	1			12.904253394457427	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	8.670520231213874	0	Not Validated

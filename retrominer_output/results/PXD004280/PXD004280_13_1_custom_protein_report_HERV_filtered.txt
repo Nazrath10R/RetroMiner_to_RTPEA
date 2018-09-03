@@ -1,0 +1,1 @@
+2227	P63132	Endogenous retrovirus group K member 113 Pol protein (PO113_HUMAN)	Endogenous retrovirus group K member 113 Pol protein (PO113_HUMAN)		HERVK_113				107.69793597531351	84.83	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	5.511111111111111	0	Not Validated

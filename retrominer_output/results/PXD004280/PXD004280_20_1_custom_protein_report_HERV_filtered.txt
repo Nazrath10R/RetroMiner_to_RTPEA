@@ -1,0 +1,1 @@
+1304	Q9XRX5	HERV-H LTR-associating protein 3 (HHLA3_HUMAN)	HERV-H LTR-associating protein 3 (HHLA3_HUMAN)	ENSG00000197568	HHLA3	1			12.904253394457427	100.0	11.4	0.0	0	0.0	Propionamide of C(C88)	Propionamide of C(1)					Single Protein	1	1	1	1	0	0	0	1	15.189873417721522	0	Not Validated

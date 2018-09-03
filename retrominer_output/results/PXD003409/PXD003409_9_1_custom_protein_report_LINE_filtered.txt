@@ -1,0 +1,15 @@
+610	LINE_1_HS_7_ORF2p								149.0250686310498	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+1033	LINE_1_HS_56_ORF2p								148.8488791160279	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+1201	LINE_1_PA2_16_ORF1p								40.01964468009723	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+1786	LINE_1_HS_24_ORF2p								148.9620251860146	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+2202	Q5T7N2	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	ENSG00000240563	L1TD1	1			98.7885850767177	83.58	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+3701	LINE_1_HS_39_ORF2p								148.95806350318304	95.37	0.0	0.0	0	0.0							Related Proteins	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+3841	LINE_1_PA2_29_ORF2p								148.8458338546847	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+4049	LINE_1_PA2_23_ORF2p								149.30106235777478	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+4986	LINE_1_PA2_15_ORF2p								148.9229648517709	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+5071	LINE_1_HS_26_ORF2p								148.96016631137542	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+5405	LINE_1_PA2_26_ORF2p								149.01600697647666	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
+6501	LINE_1_HOT_4_ORF2p								148.89809249481218	97.8	1.18	0.0	0	0.8982832723556107	Oxidation of M(M1216)	Oxidation of M(1)					Related Proteins	1	2	1	1	0	0	1	2	31.75853018372703	0	Not Validated
+7969	LINE_1_HS_42_ORF2p								149.07193929083968	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+8363	LINE_1_HS_32_ORF2p								149.03517807944277	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
+8549	LINE_1_HS_108_ORF2p								149.0952194691471	97.8	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	1	2	7.5520833333333375	0	Not Validated
