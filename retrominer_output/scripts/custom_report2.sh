@@ -6,9 +6,9 @@ DIR=/data/SBCS-BessantLab/naz/
 
 cd /data/SBCS-BessantLab/naz/pride_reanalysis/outputs/
 
-# FOLDERS=$(ls -1)
 ## needs a list from the re-analysis log
-FOLDERS=$(cat output_to_convert3.txt)
+FOLDERS=$(cat /data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/pxd_list.txt)
+# FOLDERS=$1
 # FOLDERS=PXD006833
 
 ## automatically add up a counter

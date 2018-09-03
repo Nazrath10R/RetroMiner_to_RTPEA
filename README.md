@@ -6,7 +6,7 @@ Steps to retrieve data from RetroMiner and populate into MongoDB for RTPEA
 
 The last script of RetroMiner is "Data_filtering.sh", which uses a custom version of PeptideShakers' ReportCLI to write out tables with the protein identification information we need for all proteins 
 
-### Get RT data out 
+### Get RT data out - create_results_table.sh (working)
 
 <span style="color:blue">Apocrita</span>
 

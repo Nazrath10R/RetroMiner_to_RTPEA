@@ -18,14 +18,36 @@
 #============================================================#
 
 DIR=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output
+SCRIPTS=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/data
+DATA=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/scripts
+
+cd $DIR
 
 #------------------------------------------------------------#
-#         Downloads spectral data for Project PXD            #
+#                    create a PXD list                       #
 #------------------------------------------------------------#
 
-# PXD=$1
+## get all PXDs to parse 
+Rscript $SCRIPTS/pxd_statuses.R
+echo
+readarray PXD < $DIR/pxd_list.txt
+echo "PXD list created"
+# echo "${PXD[*]}"
 
 #------------------------------------------------------------#
+sh custom_report2.sh
+
+#------------------------------------------------------------#
+Rscript $SCRIPTS/parser_argumented.R
+
+#------------------------------------------------------------#
+Rscript $SCRIPTS/make_output_table.R
+
+
+
+
+
+
 
 
 
