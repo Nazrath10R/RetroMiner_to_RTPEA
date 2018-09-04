@@ -41,26 +41,23 @@ echo "filtration completed"
 #            add experimental design to results              #
 #------------------------------------------------------------#
 echo
-for i in "${PXD[@]}"
-do Rscript $SCRIPTS/parser_argumented.R --PXD "$i"
-done
+# for i in "${PXD[@]}"
+#   do Rscript $SCRIPTS/parser_argumented.R --PXD "$i"
+# done
 echo "added experimental design to results"
 #------------------------------------------------------------#
 #         collate all results in one output table            #
 #------------------------------------------------------------#
 echo 
-mkdir $DATA/final
-find $DATA -name 'PXD*_parsed.txt' -exec mv -it $DATA/final {} +
+if [ ! -d "$DATA/final" ]; 
+  then mkdir $DATA/final
+fi
+
+# needs to overwite
+find $DATA -name 'PXD*_parsed.txt' -exec mv -it $DATA/final {} \;
 echo
 Rscript $SCRIPTS/make_output_table.R --DIR "$DATA/final/"
 echo "results table created"
-
-
-
-
-
-
-
 
 
 
