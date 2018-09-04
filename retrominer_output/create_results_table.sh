@@ -18,8 +18,8 @@
 #============================================================#
 
 DIR=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output
-SCRIPTS=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/data
-DATA=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/scripts
+DATA=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/data
+SCRIPTS=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/scripts
 
 cd $DIR
 
@@ -30,18 +30,28 @@ cd $DIR
 ## get all PXDs to parse 
 Rscript $SCRIPTS/pxd_statuses.R
 echo
-readarray PXD < $DIR/pxd_list.txt
+readarray -t PXD < $DIR/pxd_list.txt
 echo "PXD list created"
 # echo "${PXD[*]}"
 
 #------------------------------------------------------------#
-sh custom_report2.sh
+sh $SCRIPTS/custom_report2.sh
 
 #------------------------------------------------------------#
-Rscript $SCRIPTS/parser_argumented.R
+
+
+for i in "${PXD[@]}"
+do
+  # echo "$i"
+  Rscript $SCRIPTS/parser_argumented.R --PXD "$i"
+done
+
+
+
+Rscript $SCRIPTS/parser_argumented.R --PXD "PXD002211" 
 
 #------------------------------------------------------------#
-Rscript $SCRIPTS/make_output_table.R
+Rscript $SCRIPTS/make_output_table.R 
 
 
 

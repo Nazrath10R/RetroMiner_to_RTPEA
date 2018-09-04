@@ -7,7 +7,7 @@
 
 # rm(list=ls())
 
-dir <- "/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/results/"
+dir <- "/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results/"
 
 setwd(dir)
 
@@ -35,7 +35,7 @@ PXD   <- argv$PXD
 table <- read.table("/data/SBCS-BessantLab/naz/pride_reanalysis/parameters/experimental_design.txt")
 
 if (! PXD %in% table$Accession_number) {
-  print("PXD does not exist")
+  print(paste("PXD does not exist: ", PXD, sep = ""))
   quit("no")
 }
 
@@ -287,3 +287,7 @@ filename <- paste(dir,
 
 write.table(df, filename, sep = "\t", row.names=FALSE, quote=FALSE)
 
+
+
+
+print(paste("PXD completed: ", PXD, sep = ""))
