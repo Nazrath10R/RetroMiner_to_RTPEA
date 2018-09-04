@@ -1,6 +1,19 @@
 #!/usr/bin/Rsript
 
-setwd("/data/SBCS-BessantLab/naz/pride_reanalysis/results/final/")
+suppressMessages(library("argparser"))    # Argument passing
+
+parser <- arg_parser("This parser contains the input arguments")
+
+parser <- add_argument(parser, "--DIR",
+                       help = "working directory")
+
+argv   <- parse_args(parser)
+
+DIR   <- argv$DIR
+
+# setwd("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results/final")
+setwd(DIR)
+
 
 input_files <-  list.files(path = ".", pattern = "*_parsed.txt")
 
@@ -25,6 +38,6 @@ for(i in 1:length(input_files)) {
 
 table <- table[-1,]
 
-write.table(table, "output_table3.txt", sep="\t")
+write.table(table, "output_table.txt", sep="\t")
 
 print("Output table re-generated")

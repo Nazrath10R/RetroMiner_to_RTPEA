@@ -1,7 +1,0 @@
-"Dataset"	"Disease"	"Tissue"	"Sample"	"Replicate"	"ORF1p"	"ORF2p"	"ORF0"	"ORF1p_variants"	"ORF2p_variants"	"HERV_proteins"	"PTMs"
-PXD003416	healthy	NA	1	1	0	0	0	0	character(0)	0	NA
-PXD003416	healthy	NA	2	1	0	0	0	0	character(0)	0	NA
-PXD003416	healthy	NA	3	1	0	0	0	c("ORF1p_PA2_32_(39.939)", "ORF1p_PA3_1_(7.261)", "ORF1p_HS_16_(7.261)", "ORF1p_HS_62_(7.261)")	ORF2p_PA2_33_(7.261)	0	NA
-PXD003416	healthy	NA	4	1	0	0	0	ORF1p_PA2_32_(27.893)	ORF2p_PA2_7_(82.822)	0	NA
-PXD003416	healthy	NA	5	1	0	0	0	0	0	0	NA
-PXD003416	healthy	NA	6	1	0	0	0	0	character(0)	0	NA

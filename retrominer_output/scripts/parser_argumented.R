@@ -7,9 +7,9 @@
 
 # rm(list=ls())
 
-dir <- "/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results/"
+dir <- "/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results"
 
-setwd(dir)
+setwd(paste(dir,"/", sep = ""))
 
 suppressMessages(library("argparser"))    # Argument passing
 

@@ -1,0 +1,17 @@
+Dataset	Disease	Tissue	Sample	Replicate	ORF1p	ORF2p	ORF0	ORF1p_variants	ORF2p_variants	HERV_proteins	PTMs
+PXD004051	breast_cancer	NA	1	1	0	0	0	0	0	0	NA
+PXD004051	breast_cancer	NA	2	1	4.06147091108672	0	0	0	ORF2p_PA2_29_(4.061),ORF2p_HS_71_(4.061)	C9J7D0_(4.061)	NA
+PXD004051	breast_cancer	NA	3	1	0	0	0	0	ORF2p_PA2_13_(12.237),ORF2p_HS_83_(5.605)	0	NA
+PXD004051	breast_cancer	NA	4	1	0	0	0	0	0	0	NA
+PXD004051	breast_cancer	NA	5	1	0	0	0	0	0	0	NA
+PXD004051	breast_cancer	NA	6	1	0	0	0	ORF1p_PA2_18_(5.649),ORF1p_HOT_2_(5.649)	ORF2p_HS_121_(5.649)	P63132_(5.649)	NA
+PXD004051	breast_cancer	NA	7	1	0	0	0	0	0	0	NA
+PXD004051	breast_cancer	NA	8	1	0	0	0	0	0	0	NA
+PXD004051	breast_cancer	NA	9	1	0	0	0	0	0	0	NA
+PXD004051	breast_cancer	NA	10	1	0	0	0	0	0	0	NA
+PXD004051	breast_cancer	NA	11	1	0	0	0	0	ORF2p_HS_105_(11.504)	0	NA
+PXD004051	breast_cancer	NA	12	1	58.0645161290322	0	0	0	0	0	NA
+PXD004051	breast_cancer	NA	13	1	0	0	0	0	0	0	NA
+PXD004051	breast_cancer	NA	14	1	0	0	0	0	0	0	NA
+PXD004051	breast_cancer	NA	15	1	0	0	0	0	0	0	NA
+PXD004051	breast_cancer	NA	16	1	0	4.43131462333826	0	0	0	0	NA

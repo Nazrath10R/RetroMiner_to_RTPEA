@@ -10,49 +10,50 @@
 #           create super table with all results             #
 #                                                           #
 
-
-
 #============================================================#
 # sh create_results_table.sh ARGS
 # sh create_results_table.sh 
 #============================================================#
-
+echo
 DIR=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output
-DATA=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/data
+DATA=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results
 SCRIPTS=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/scripts
-
 cd $DIR
-
+echo "CREATE RESULTS TABLE FOR RETROMINER'S OUTPUT"
 #------------------------------------------------------------#
 #                    create a PXD list                       #
 #------------------------------------------------------------#
-
+echo
 ## get all PXDs to parse 
 Rscript $SCRIPTS/pxd_statuses.R
 echo
 readarray -t PXD < $DIR/pxd_list.txt
 echo "PXD list created"
 # echo "${PXD[*]}"
-
+echo
 #------------------------------------------------------------#
-sh $SCRIPTS/custom_report2.sh
-
+#             run custom PeptideShaker export                #
 #------------------------------------------------------------#
-
-
+echo "start filtration"
+# sh $SCRIPTS/custom_report2.sh
+echo "filtration completed"
+#------------------------------------------------------------#
+#            add experimental design to results              #
+#------------------------------------------------------------#
+echo
 for i in "${PXD[@]}"
-do
-  # echo "$i"
-  Rscript $SCRIPTS/parser_argumented.R --PXD "$i"
+do Rscript $SCRIPTS/parser_argumented.R --PXD "$i"
 done
-
-
-
-Rscript $SCRIPTS/parser_argumented.R --PXD "PXD002211" 
-
+echo "added experimental design to results"
 #------------------------------------------------------------#
-Rscript $SCRIPTS/make_output_table.R 
-
+#         collate all results in one output table            #
+#------------------------------------------------------------#
+echo 
+mkdir $DATA/final
+find $DATA -name 'PXD*_parsed.txt' -exec mv -it $DATA/final {} +
+echo
+Rscript $SCRIPTS/make_output_table.R --DIR "$DATA/final/"
+echo "results table created"
 
 
 
