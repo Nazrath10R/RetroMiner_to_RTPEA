@@ -1,0 +1,13 @@
+--2018-07-26 23:10:44--  https://www.ebi.ac.uk/pride/ws/archive/file/list/project/PXD006552
+Resolving www.ebi.ac.uk... 193.62.193.80
+Connecting to www.ebi.ac.uk|193.62.193.80|:443... connected.
+WARNING: cannot verify www.ebi.ac.uk's certificate, issued by `/C=BM/O=QuoVadis Limited/CN=QuoVadis EV SSL ICA G3':
+  Self-signed certificate encountered.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: `PXD006552_files.json'
+
+     0K .......... .......... ......                           4.36M=0.006s
+
+2018-07-26 23:10:44 (4.36 MB/s) - `PXD006552_files.json' saved [27454]
+

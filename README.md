@@ -31,20 +31,9 @@ creates one output table with all results
 Rscript parser_argumented.R --PXD "PXD00xxxx"
 ```
 
-make new folder called final
+makes new folder called final
 move all filtered files into final folder
 
-```
-find . -name 'PXD*_parsed.txt' -exec mv -it ../final {} +
-```
-
-## visualise results 
-
-<span style="color:blue">Apocrita</span>
-
-```
-Rscript result_interpretation.R
-```
 
 ### collate output table 
 
@@ -53,6 +42,14 @@ Rscript result_interpretation.R
 
 ```
 Rscript make_output_table.R
+```
+
+## visualise results 
+
+<span style="color:blue">Apocrita</span>
+
+```
+Rscript result_interpretation.R
 ```
 
 
