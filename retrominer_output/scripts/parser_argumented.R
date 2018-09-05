@@ -290,4 +290,4 @@ write.table(df, filename, sep = "\t", row.names=FALSE, quote=FALSE)
 
 
 
-print(paste("PXD completed: ", PXD, sep = ""))
+print(paste("experimental design added to: ", PXD, sep = ""))

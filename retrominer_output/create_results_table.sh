@@ -45,9 +45,11 @@ echo "filtration completed"
 #            add experimental design to results              #
 #------------------------------------------------------------#
 echo
+echo
 for i in "${PXD[@]}"
   do Rscript $SCRIPTS/parser_argumented.R --PXD "$i"
 done
+echo
 echo "added experimental design to results"
 
 #------------------------------------------------------------#
@@ -58,7 +60,8 @@ if [ ! -d "$DATA/final" ];
   then mkdir $DATA/final
 else
   mv $DATA/final $DATA/z_archive
-  mv $DATA/z_archive/final "$DATA/z_archive/final.$(date)"
+  mv $DATA/z_archive/final "$DIR/z_archive/final.$(date)"
+  mkdir $DATA/final
 fi
 
 # needs to overwite
@@ -74,4 +77,5 @@ echo "results table created"
 echo 
 Rscript $SCRIPTS/adding_consequence_to_output_table.R
 echo
-
+echo "metadata added"
+echo

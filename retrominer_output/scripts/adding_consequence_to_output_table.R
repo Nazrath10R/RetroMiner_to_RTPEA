@@ -1,7 +1,7 @@
 
 setwd("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results")
 
-table <- read.table("./output_table.txt", sep= "\t", header = TRUE)
+table <- read.table("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results/final/output_table.txt", sep= "\t", header = TRUE)
 
 consequence_table <- read.table("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/input_data/metadata/consequence.txt", sep = "\t", header = TRUE)
 
@@ -23,7 +23,7 @@ for(i in 1:length(unique(table$Dataset))) {
   
   pxd <- unique(table$Dataset)[i]
   
-  print(paste(i, pxd))
+  # print(paste(i, pxd))
   
   if(nrow(table[which(table$Dataset==pxd),]) == nrow(consequence_table[which(consequence_table$PXD==as.character(pxd)),])) {
   
@@ -50,14 +50,15 @@ for(i in 1:length(unique(table$Dataset))) {
       
       rep(as.numeric(size_table[which(size_table$PXD==as.character(pxd)),]$size), nrow(table[which(table$Dataset==pxd),]))
     
-    
+    print(paste("added metadata to: ", pxd))
+  
     
   }
   
 }
 
 
-write.table(table, "output_table_with_consequence.txt", sep = "\t")
+write.table(table, "/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results/final/output_table_with_consequence.txt", sep = "\t")
 
 
 
