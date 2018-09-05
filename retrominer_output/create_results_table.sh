@@ -68,6 +68,10 @@ Rscript $SCRIPTS/make_output_table.R --DIR "$DATA/final/"
 echo
 echo "results table created"
 
-
-
+#------------------------------------------------------------#
+#         collate all results in one output table            #
+#------------------------------------------------------------#
+echo 
+Rscript $SCRIPTS/adding_consequence_to_output_table.R
+echo
 
