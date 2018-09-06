@@ -26,6 +26,7 @@ DIR=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output
 DATA=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results
 SCRIPTS=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/scripts
 OUTPUT=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/output_data
+ARCHIVE=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/z_archive
 
 cd $DIR
 echo -en "\033[34m"
@@ -68,8 +69,8 @@ echo
 if [ ! -d "$DATA/final" ]; 
   then mkdir $DATA/final
 else
-  mv $DATA/final $DATA/z_archive
-  mv $DATA/z_archive/final "$DIR/z_archive/final.$(date)"
+  mv $DATA/final $ARCHIVE/results
+  mv $ARCHIVE/results/final "$ARCHIVE/results/final.$(date)"
   mkdir $DATA/final
 fi
 
@@ -97,8 +98,8 @@ echo
 if [ ! -d "$OUTPUT/table" ]; 
   then mkdir $OUTPUT/table
 else
-  mv $OUTPUT/table $OUTPUT/z_archive
-  mv $OUTPUT/z_archive/table "$OUTPUT/z_archive/table.$(date)"
+  mv $OUTPUT/table $ARCHIVE/table
+  mv $ARCHIVE/table/table "$ARCHIVE/table/table.$(date)"
   mkdir $OUTPUT/table
 fi
 
@@ -107,7 +108,6 @@ echo
 echo "converted table data to json"
 echo
  
-
 
 
 
