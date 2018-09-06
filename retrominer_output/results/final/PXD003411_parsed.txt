@@ -1,0 +1,7 @@
+Dataset	Disease	Tissue	Sample	Replicate	ORF1p	ORF2p	ORF0	ORF1p_variants	ORF2p_variants	HERV_proteins	PTMs
+PXD003411	healthy	NA	1	1	0	0	0	ORF1p_HS_94_(30.806)	ORF2p_PA2_25_(22.439)	0	NA
+PXD003411	healthy	NA	2	1	0	0	0	0	0	0	NA
+PXD003411	healthy	NA	3	1	0	0	0	0	0	0	NA
+PXD003411	healthy	NA	4	1	0	0	0	ORF1p_HS_94_(20.645)	ORF2p_HS_2_(22.876),ORF2p_PA2_28_(18.421)	0	NA
+PXD003411	healthy	NA	5	1	0	0	0	0	ORF2p_HS_2_(11.25)	0	NA
+PXD003411	healthy	NA	6	1	0	0	0	0	0	0	NA

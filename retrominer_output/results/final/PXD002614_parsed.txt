@@ -1,0 +1,17 @@
+Dataset	Disease	Tissue	Sample	Replicate	ORF1p	ORF2p	ORF0	ORF1p_variants	ORF2p_variants	HERV_proteins	PTMs
+PXD002614	glioblastoma stem cells	NA	 1	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	 2	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	 3	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	 4	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	 5	1	0	0	0	ORF1p_PA2_11_(7.519)	0	0	NA
+PXD002614	glioblastoma stem cells	NA	 6	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	 7	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	 8	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	 9	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	10	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	11	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	12	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	13	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	14	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	15	1	0	0	0	0	0	0	NA
+PXD002614	glioblastoma stem cells	NA	16	1	0	0	0	0	0	0	NA

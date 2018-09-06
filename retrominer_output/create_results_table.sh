@@ -104,7 +104,7 @@ fi
 
 Rscript $SCRIPTS/convert_results_to_json_working.R
 echo
-echo "metadata added"
+echo "converted table data to json"
 echo
  
 
