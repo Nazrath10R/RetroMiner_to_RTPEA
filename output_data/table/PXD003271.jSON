@@ -1,0 +1,4815 @@
+{
+  "PXD": "PXD003271",
+  "study": "NA",
+  "disease": "Clear-Cell Renal Cell Carcinoma vs healthy",
+  "no_of_samples": 178,
+  "spectralSize": "NA",
+  "sample": [
+    {
+      "Snumber": 1,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 2,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_110", "ORF1p_HS_39"],
+        "confidence": [2.971, 2.971]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_5", "ORF2p_HS_61", "ORF2p_HS_19", "ORF2p_PA2_20", "ORF2p_HS_39", "ORF2p_HS_106", "ORF2p_HS_60"],
+        "confidence": [2.971, 2.971, 2.971, 2.971, 2.971, 2.971, 2.971]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 3,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 4,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 5,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 6,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 7,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_27", "ORF1p_HS_20", "ORF1p_HS_101"],
+        "confidence": [1.811, 1.811, 1.811]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_29", "ORF2p_HS_85", "ORF2p_PA2_18", "ORF2p_HS_71", "ORF2p_HS_108"],
+        "confidence": [1.811, 1.811, 1.811, 1.811, 1.811]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 8,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 9,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_35", "ORF1p_HS_1", "ORF1p_HS_68", "ORF1p_PA2_4", "ORF1p_PA2_20", "ORF1p_PA2_2"],
+        "confidence": [0.029, 0.029, 0.029, 0.029, 0.029, 0.029]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_25", "ORF2p_HS_101", "ORF2p_HS_120", "ORF2p_PA2_27", "ORF2p_HS_84", "ORF2p_HS_39", "ORF2p_PA2_2", "ORF2p_PA2_11", "ORF2p_HS_21", "ORF2p_PA2_28"],
+        "confidence": [0.029, 0.029, 0.029, 0.029, 0.029, 0.029, 0.029, 0.029, 0.029, 0.029]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 10,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 11,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 12,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_7", "ORF1p_HS_36", "ORF1p_HS_9", "ORF1p_PA2_6"],
+        "confidence": [0.366, 0.366, 0.366, 0.366]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_89", "ORF2p_PA2_27", "ORF2p_HS_28", "ORF2p_HS_68", "ORF2p_PA2_22", "ORF2p_PA2_12", "ORF2p_HS_20", "ORF2p_PA2_11", "ORF2p_HS_42", "ORF2p_HS_45", "ORF2p_PA2_23"],
+        "confidence": [0.366, 0.366, 0.366, 0.366, 0.366, 0.366, 0.366, 0.366, 0.366, 0.366, 0.366]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 13,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 14,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 15,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 16,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 17,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 18,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 19,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 20,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "ORF1p_PA2_25",
+        "confidence": 0.063
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_26", "ORF2p_HS_117", "ORF2p_HS_32", "ORF2p_PA2_6", "ORF2p_PA2_32"],
+        "confidence": [0.063, 0.063, 0.063, 0.063, 0.063]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 21,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 22,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 23,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "ORF1p_HS_115",
+        "confidence": 2.282
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_15", "ORF2p_HS_20", "ORF2p_HS_109"],
+        "confidence": [2.282, 2.282, 2.282]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 24,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 25,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "ORF1p_HOT_4",
+        "confidence": 3.207
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_28", "ORF2p_PA2_15", "ORF2p_PA2_20", "ORF2p_PA2_26", "ORF2p_HS_85", "ORF2p_PA2_12", "ORF2p_PA2_34", "ORF2p_HS_11", "ORF2p_PA2_24", "ORF2p_HS_78"],
+        "confidence": [3.207, 3.207, 3.207, 3.207, 3.207, 3.207, 3.207, 3.207, 3.207, 3.207]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 26,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_121", "ORF1p_PA2_11", "ORF1p_HS_69"],
+        "confidence": [1.836, 1.836, 1.836]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_18", "ORF2p_PA2_19", "ORF2p_HS_36", "ORF2p_PA2_29"],
+        "confidence": [1.836, 1.836, 1.836, 1.836]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 27,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 28,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 29,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 30,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 31,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 32,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 1.2143
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "ORF1p_HS_57",
+        "confidence": 1.214
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_17", "ORF2p_PA2_7", "ORF2p_HS_3", "ORF2p_HS_39"],
+        "confidence": [2.029, 1.214, 1.214, 1.214]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 33,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 34,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 35,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 36,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 37,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 38,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "ORF1p_PA2_17",
+        "confidence": 1.997
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_7", "ORF2p_PA2_30", "ORF2p_PA2_25", "ORF2p_PA3_1", "ORF2p_HS_1", "ORF2p_PA2_16", "ORF2p_HS_122", "ORF2p_PA2_5", "ORF2p_HS_36", "ORF2p_PA2_13", "ORF2p_PA2_20", "ORF2p_HS_67", "ORF2p_PA2_27", "ORF2p_HS_54", "ORF2p_HS_42", "ORF2p_HS_12", "ORF2p_PA2_23", "ORF2p_HS_27", "ORF2p_HS_78"],
+        "confidence": [2.257, 2.257, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997, 1.997]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 39,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 40,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 41,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 42,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_25", "ORF1p_HS_112", "ORF1p_PA2_8", "ORF1p_PA2_26"],
+        "confidence": [0.637, 0.637, 0.637, 0.637]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA3_1", "ORF2p_PA2_15", "ORF2p_HS_30", "ORF2p_HS_58", "ORF2p_HS_28", "ORF2p_PA2_11", "ORF2p_HS_122", "ORF2p_PA2_27", "ORF2p_HS_68", "ORF2p_HS_88", "ORF2p_PA2_20"],
+        "confidence": [0.637, 0.637, 0.637, 0.637, 0.637, 0.637, 0.637, 0.637, 0.637, 0.637, 0.637]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 43,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 44,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 45,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 46,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 47,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 48,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 49,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 50,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 51,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 52,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 53,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 54,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 55,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 56,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 57,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 58,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 59,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 60,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 61,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_11", "ORF1p_HS_92"],
+        "confidence": [2.216, 2.216]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_7", "ORF2p_HS_50", "ORF2p_HS_88", "ORF2p_HS_6", "ORF2p_HS_40", "ORF2p_HS_116", "ORF2p_HS_52", "ORF2p_PA2_31", "ORF2p_PA2_13", "ORF2p_HS_10", "ORF2p_PA2_14", "ORF2p_PA2_29", "ORF2p_HS_78", "ORF2p_HS_108", "ORF2p_HS_92"],
+        "confidence": [2.216, 2.216, 2.216, 2.216, 2.216, 2.216, 2.216, 2.216, 2.216, 2.216, 2.216, 2.216, 2.216, 2.216, 2.216]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 62,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 63,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 64,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 65,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 66,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 67,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 68,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 69,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 70,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 71,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 72,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 73,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 74,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 75,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 76,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 77,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 78,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_26", "ORF1p_PA2_22", "ORF1p_PA2_23"],
+        "confidence": [3.236, 3.236, 3.236]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_8", "ORF2p_PA2_7", "ORF2p_HS_7", "ORF2p_HS_121", "ORF2p_HS_24", "ORF2p_PA2_24", "ORF2p_PA2_26", "ORF2p_PA2_23"],
+        "confidence": [3.236, 3.236, 3.236, 3.236, 3.236, 3.236, 2.54, 2.54]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 79,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 80,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_15", "ORF1p_HOT_4"],
+        "confidence": [0.475, 0.475]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_3", "ORF2p_PA2_5", "ORF2p_HOT_5", "ORF2p_HS_33"],
+        "confidence": [0.475, 0.475, 0.475, 0.475]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 81,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "ORF1p_PA2_30",
+        "confidence": 3.546
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_73", "ORF2p_PA2_35", "ORF2p_PA2_7", "ORF2p_PA2_17", "ORF2p_HS_61", "ORF2p_HOT_6", "ORF2p_PA2_20", "ORF2p_PA2_4", "ORF2p_HS_85", "ORF2p_HS_13", "ORF2p_PA2_30", "ORF2p_HS_25", "ORF2p_HS_111", "ORF2p_HS_103", "ORF2p_HS_42", "ORF2p_PA2_23", "ORF2p_HS_27"],
+        "confidence": [3.546, 3.546, 3.546, 3.546, 3.546, 3.546, 3.546, 3.546, 3.546, 3.546, 3.546, 3.546, 3.546, 3.546, 3.546, 3.546, 3.546]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 82,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 83,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 84,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 85,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 86,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "ORF1p_PA2_22",
+        "confidence": 4.683
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_116", "ORF2p_HS_100", "ORF2p_HS_103", "ORF2p_PA2_23"],
+        "confidence": [4.683, 4.683, 4.683, 4.683]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 87,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_25", "ORF1p_HS_53", "ORF1p_PA2_22", "ORF1p_HS_33", "ORF1p_PA2_30", "ORF1p_HS_45"],
+        "confidence": [2.02, 2.02, 2.02, 2.02, 2.02, 2.02]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_25", "ORF2p_PA2_26", "ORF2p_PA2_16", "ORF2p_HS_62", "ORF2p_HS_68", "ORF2p_PA2_13", "ORF2p_PA2_34", "ORF2p_PA2_29", "ORF2p_HS_57", "ORF2p_HS_108"],
+        "confidence": [2.02, 2.02, 2.02, 2.02, 2.02, 2.02, 2.02, 2.02, 2.02, 2.02]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 88,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_19", "ORF1p_HS_34"],
+        "confidence": [0.142, 0.142]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_25", "ORF2p_PA2_7", "ORF2p_PA2_15", "ORF2p_PA2_22", "ORF2p_HOT_4", "ORF2p_HS_94", "ORF2p_PA2_12", "ORF2p_HS_76", "ORF2p_HS_72"],
+        "confidence": [0.142, 0.142, 0.142, 0.142, 0.142, 0.142, 0.142, 0.142, 0.142]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 89,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_57", "ORF1p_PA2_35", "ORF1p_HS_61"],
+        "confidence": [4.095, 3.952, 3.952]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_26", "ORF2p_HS_30", "ORF2p_PA2_27", "ORF2p_PA2_31", "ORF2p_HS_68", "ORF2p_HS_20", "ORF2p_PA2_34", "ORF2p_HS_42", "ORF2p_HS_71", "ORF2p_HS_78"],
+        "confidence": [3.952, 3.952, 3.952, 3.952, 3.952, 3.952, 3.952, 3.952, 3.952, 3.952]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 90,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 91,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 92,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 93,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_115", "ORF1p_PA2_4", "ORF1p_HS_33", "ORF1p_PA2_30", "ORF1p_PA2_24"],
+        "confidence": [0.088, 0.088, 0.088, 0.088, 0.088]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_115", "ORF2p_HS_3", "ORF2p_HS_88", "ORF2p_HS_105", "ORF2p_HS_39", "ORF2p_PA2_2", "ORF2p_PA2_33"],
+        "confidence": [0.088, 0.088, 0.088, 0.088, 0.088, 0.088, 0.088]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 94,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 95,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 96,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA3_1", "ORF1p_HS_59", "ORF1p_HS_68", "ORF1p_HS_38"],
+        "confidence": [3.188, 3.188, 3.188, 3.188]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_5", "ORF2p_PA2_15", "ORF2p_HOT_6", "ORF2p_HS_68", "ORF2p_HS_106", "ORF2p_PA2_34", "ORF2p_HS_46"],
+        "confidence": [3.188, 3.188, 3.188, 3.188, 3.188, 3.188, 3.188]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 97,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 98,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 99,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_57", "ORF1p_PA2_31"],
+        "confidence": [2.674, 2.674]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_45", "ORF2p_PA2_34", "ORF2p_PA2_29", "ORF2p_PA2_32"],
+        "confidence": [2.674, 2.674, 2.674, 2.674]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 100,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 101,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 102,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 103,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 104,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 105,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 106,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 107,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 108,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "ORF2p_PA3_1",
+        "confidence": 4.731
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 109,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 110,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 111,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 112,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 113,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_4", "ORF1p_HS_107", "ORF1p_PA2_15", "ORF1p_HS_34"],
+        "confidence": [3.972, 3.441, 3.441, 3.441]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_31", "ORF2p_HS_58", "ORF2p_PA2_18", "ORF2p_HS_116", "ORF2p_PA2_5", "ORF2p_HS_110", "ORF2p_HS_43", "ORF2p_PA2_24", "ORF2p_HS_42", "ORF2p_HS_71", "ORF2p_HS_109", "ORF2p_PA2_6", "ORF2p_PA2_32"],
+        "confidence": [3.972, 3.441, 3.441, 3.441, 3.441, 3.441, 3.441, 3.441, 3.441, 3.441, 3.441, 3.441, 3.441]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 114,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 115,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 116,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 117,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 118,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_52", "ORF2p_HS_105", "ORF2p_PA2_7", "ORF2p_PA2_24"],
+        "confidence": [6.082, 5.958, 5.958, 5.958]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 119,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 120,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 121,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "ORF1p_PA2_16",
+        "confidence": 1.917
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_5", "ORF2p_HS_30", "ORF2p_HS_14", "ORF2p_HS_81", "ORF2p_PA2_26", "ORF2p_HS_33", "ORF2p_PA2_33", "ORF2p_HS_108", "ORF2p_HS_78"],
+        "confidence": [1.917, 1.917, 1.917, 1.917, 1.917, 1.917, 1.917, 1.917, 1.917]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 122,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 123,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 124,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 125,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 126,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 127,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_21", "ORF1p_PA2_13", "ORF1p_PA2_20"],
+        "confidence": [1.707, 1.707, 1.707]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_116", "ORF2p_PA2_7", "ORF2p_HS_25", "ORF2p_HS_52", "ORF2p_HS_36", "ORF2p_PA2_30", "ORF2p_HS_39", "ORF2p_PA2_12", "ORF2p_HS_42"],
+        "confidence": [1.707, 1.707, 1.707, 1.707, 1.707, 1.707, 1.707, 1.707, 1.707]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 128,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 1.0854
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_19", "ORF1p_HS_33", "ORF1p_HOT_2"],
+        "confidence": [1.085, 1.085, 1.085]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HOT_5", "ORF2p_HS_9", "ORF2p_PA2_30", "ORF2p_PA2_18", "ORF2p_PA2_28", "ORF2p_PA2_15"],
+        "confidence": [1.085, 1.085, 1.085, 1.085, 1.085, 1.085]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 129,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_61", "ORF1p_HS_78"],
+        "confidence": [4.321, 4.321]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_7", "ORF2p_HS_25", "ORF2p_HS_43", "ORF2p_PA2_4", "ORF2p_HS_67", "ORF2p_HS_2"],
+        "confidence": [4.321, 4.321, 4.321, 4.321, 4.321, 4.321]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 130,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 131,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 132,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 133,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 134,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "ORF1p_HS_74",
+        "confidence": 1.883
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_29", "ORF2p_PA2_23", "ORF2p_HS_105", "ORF2p_PA2_7", "ORF2p_HS_39", "ORF2p_PA2_17", "ORF2p_PA2_3", "ORF2p_PA2_2", "ORF2p_PA2_18", "ORF2p_HS_85", "ORF2p_PA2_19", "ORF2p_HS_36", "ORF2p_HS_72", "ORF2p_HS_34", "ORF2p_HS_88", "ORF2p_HS_109"],
+        "confidence": [2.508, 2.508, 1.883, 1.883, 1.883, 1.883, 1.883, 1.883, 1.883, 1.883, 1.883, 1.883, 1.883, 1.883, 1.883, 1.883]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 135,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 136,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 137,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 138,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 139,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 140,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_109", "ORF1p_HS_55"],
+        "confidence": [0.692, 0.692]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_39", "ORF2p_HS_120", "ORF2p_HS_116", "ORF2p_PA2_6", "ORF2p_HS_36"],
+        "confidence": [0.692, 0.692, 0.692, 0.692, 0.692]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 141,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 142,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_33", "ORF1p_PA2_30"],
+        "confidence": [2.874, 2.874]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_8", "ORF2p_HS_116", "ORF2p_PA2_4", "ORF2p_PA2_34", "ORF2p_HS_2", "ORF2p_PA2_11"],
+        "confidence": [2.874, 2.874, 2.874, 2.874, 2.874, 2.874]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 143,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_98", "ORF1p_PA2_27"],
+        "confidence": [2.134, 2.134]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_7", "ORF2p_HS_86", "ORF2p_HS_18", "ORF2p_HS_103", "ORF2p_HS_12", "ORF2p_HS_36"],
+        "confidence": [2.134, 2.134, 2.134, 2.134, 2.134, 2.134]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 144,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 145,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 146,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_82", "ORF1p_HS_116", "ORF1p_PA2_31", "ORF1p_PA2_11", "ORF1p_PA2_23"],
+        "confidence": [1.415, 1.415, 1.415, 1.415, 1.415]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_25", "ORF2p_PA2_8", "ORF2p_PA2_9", "ORF2p_HS_53", "ORF2p_PA2_7", "ORF2p_HS_120", "ORF2p_PA2_34", "ORF2p_HS_116"],
+        "confidence": [1.415, 1.415, 1.415, 1.415, 1.415, 1.415, 1.415, 1.415]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 147,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 148,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_29", "ORF2p_PA2_26", "ORF2p_PA2_13"],
+        "confidence": [1.491, 1.491, 1.491]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 149,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_1", "ORF1p_HS_103", "ORF1p_HOT_2", "ORF1p_PA2_4"],
+        "confidence": [2.863, 2.863, 2.863, 2.863]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_21", "ORF2p_HS_25", "ORF2p_PA2_4"],
+        "confidence": [2.863, 2.863, 2.863]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 150,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 151,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 152,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 153,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 154,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 155,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 156,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 157,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 158,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 159,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 160,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_24", "ORF1p_HS_55", "ORF1p_PA2_5"],
+        "confidence": [1.461, 1.461, 1.461]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_112", "ORF2p_PA2_16", "ORF2p_HS_122", "ORF2p_HS_71", "ORF2p_PA2_20", "ORF2p_HS_39", "ORF2p_HS_10", "ORF2p_PA2_14", "ORF2p_PA2_34", "ORF2p_PA2_32", "ORF2p_PA2_15"],
+        "confidence": [1.461, 1.461, 1.461, 1.461, 1.461, 1.461, 1.461, 1.461, 1.461, 1.461, 1.461]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 161,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 162,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 163,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 164,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 165,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 166,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_16", "ORF1p_PA2_20"],
+        "confidence": [2.187, 2.187]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_47", "ORF2p_HS_115", "ORF2p_HS_7", "ORF2p_HS_116", "ORF2p_HS_36", "ORF2p_HS_9", "ORF2p_HS_25", "ORF2p_HS_20", "ORF2p_HS_60", "ORF2p_HS_42", "ORF2p_HOT_3"],
+        "confidence": [2.798, 2.187, 2.187, 2.187, 2.187, 2.187, 2.187, 2.187, 2.187, 2.187, 2.187]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 167,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 168,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 169,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "ORF1p_HS_92",
+        "confidence": 3.519
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_7", "ORF2p_HS_45"],
+        "confidence": [3.519, 3.519]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 170,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 171,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 172,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 173,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 174,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_13", "ORF1p_HS_96"],
+        "confidence": [3.832, 3.832]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_120", "ORF2p_PA2_15", "ORF2p_HS_1", "ORF2p_HS_25", "ORF2p_PA2_20", "ORF2p_PA2_30", "ORF2p_HS_67", "ORF2p_HOT_1", "ORF2p_HS_21", "ORF2p_PA2_23"],
+        "confidence": [3.832, 3.832, 3.832, 3.832, 3.832, 3.832, 3.832, 3.832, 3.832, 3.832]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 175,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 176,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 177,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 178,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "NA",
+      "diseaseState": "NA",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    }
+  ]
+}

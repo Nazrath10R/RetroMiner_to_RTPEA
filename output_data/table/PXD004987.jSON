@@ -1,0 +1,252 @@
+{
+  "PXD": "PXD004987",
+  "study": "brain healthy?",
+  "disease": "healthy",
+  "no_of_samples": 9,
+  "spectralSize": 4062.105,
+  "sample": [
+    {
+      "Snumber": 1,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "brain (neuromelanin)",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_7", "ORF1p_HS_26", "ORF1p_HS_38", "ORF1p_PA2_15"],
+        "confidence": [2.929, 2.929, 2.929, 2.87]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_73", "ORF2p_PA2_7", "ORF2p_PA2_27", "ORF2p_PA2_31", "ORF2p_PA2_4", "ORF2p_HS_9", "ORF2p_PA2_12"],
+        "confidence": [2.929, 2.929, 2.929, 2.929, 2.929, 2.929, 2.929]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 2,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "brain (neuromelanin)",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 3,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "brain (neuromelanin)",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 87.0968
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 4,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "brain (neuromelanin)",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_82", "ORF1p_HS_30", "ORF1p_HS_71", "ORF1p_HS_89", "ORF1p_PA2_18", "ORF1p_PA2_2", "ORF1p_PA2_6"],
+        "confidence": [1.239, 1.239, 1.239, 1.239, 1.239, 1.239, 1.239]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_HS_101", "ORF2p_HS_78", "ORF2p_PA2_9", "ORF2p_HS_14", "ORF2p_PA2_27", "ORF2p_HS_36", "ORF2p_HS_21", "ORF2p_PA2_23", "ORF2p_PA3_1", "ORF2p_HS_82", "ORF2p_HS_25", "ORF2p_HS_116", "ORF2p_HOT_1", "ORF2p_PA2_34"],
+        "confidence": [4.009, 4.009, 1.239, 1.239, 1.239, 1.239, 1.239, 1.239, 1.239, 1.239, 1.239, 1.239, 1.239, 1.239]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 5,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "brain (neuromelanin)",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_27", "ORF2p_HS_22"],
+        "confidence": [3.799, 3.799]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 6,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "brain (neuromelanin)",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_HS_14", "ORF1p_HOT_4", "ORF1p_PA3_1", "ORF1p_HS_74", "ORF1p_HS_67", "ORF1p_HS_90", "ORF1p_HS_69", "ORF1p_PA2_6"],
+        "confidence": [2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_8", "ORF2p_HS_82", "ORF2p_HS_120", "ORF2p_PA2_27", "ORF2p_HS_99", "ORF2p_PA2_4", "ORF2p_HS_9", "ORF2p_PA2_30", "ORF2p_HS_21", "ORF2p_PA2_15", "ORF2p_HS_101", "ORF2p_HS_12", "ORF2p_PA2_20", "ORF2p_HS_103", "ORF2p_PA2_34", "ORF2p_PA2_18"],
+        "confidence": [2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967, 2.967]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 7,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "brain (neuromelanin)",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 8,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "brain (neuromelanin)",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": ["ORF1p_PA2_16", "ORF1p_PA2_4", "ORF1p_PA2_30", "ORF1p_PA2_32", "ORF1p_HS_93", "ORF1p_PA2_20", "ORF1p_PA2_11"],
+        "confidence": [2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241]
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_12", "ORF2p_PA2_25", "ORF2p_HS_42", "ORF2p_PA2_35", "ORF2p_HS_7", "ORF2p_PA2_27", "ORF2p_HS_25", "ORF2p_HS_24", "ORF2p_HS_4", "ORF2p_HS_9", "ORF2p_PA2_30", "ORF2p_HS_21", "ORF2p_PA2_23", "ORF2p_HS_83", "ORF2p_PA2_32", "ORF2p_HS_75", "ORF2p_HS_6", "ORF2p_HS_19", "ORF2p_HS_94", "ORF2p_HS_10", "ORF2p_PA2_14", "ORF2p_HS_85", "ORF2p_PA2_2", "ORF2p_HS_103", "ORF2p_PA2_28", "ORF2p_HS_57", "ORF2p_HS_37"],
+        "confidence": [2.368, 2.368, 2.368, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241, 2.241]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 9,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "brain (neuromelanin)",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    }
+  ]
+}

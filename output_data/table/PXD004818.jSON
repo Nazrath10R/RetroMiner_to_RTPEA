@@ -1,0 +1,252 @@
+{
+  "PXD": "PXD004818",
+  "study": "malignant mesothelioma",
+  "disease": "Diffuse malignant mesothelioma",
+  "no_of_samples": 9,
+  "spectralSize": 16985.326,
+  "sample": [
+    {
+      "Snumber": 1,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "lung mesothelium",
+      "diseaseState": "disease",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 2,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "lung mesothelium",
+      "diseaseState": "disease",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 3,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "lung mesothelium",
+      "diseaseState": "disease",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 4,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "lung mesothelium",
+      "diseaseState": "disease",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 5,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "lung mesothelium",
+      "diseaseState": "disease",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "ORF2p_HS_115",
+        "confidence": 5.047
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 6,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "lung mesothelium",
+      "diseaseState": "disease",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": ["ORF2p_PA2_23", "ORF2p_HS_100", "ORF2p_PA2_27"],
+        "confidence": [0.336, 0.336, 0.336]
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 7,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "lung mesothelium",
+      "diseaseState": "disease",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 8,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "lung mesothelium",
+      "diseaseState": "disease",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 9,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "lung mesothelium",
+      "diseaseState": "disease",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    }
+  ]
+}
