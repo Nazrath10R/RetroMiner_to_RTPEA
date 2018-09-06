@@ -14,10 +14,19 @@
 # sh create_results_table.sh ARGS
 # sh create_results_table.sh 
 #============================================================#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# ssh apoc5
+# module load 3.4.3
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+
 echo
 DIR=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output
 DATA=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results
 SCRIPTS=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/scripts
+OUTPUT=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/output_data
+
 cd $DIR
 echo -en "\033[34m"
 echo "CREATE RESULTS TABLE FOR RETROMINER'S OUTPUT"
@@ -79,3 +88,44 @@ Rscript $SCRIPTS/adding_consequence_to_output_table.R
 echo
 echo "metadata added"
 echo
+
+
+#------------------------------------------------------------#
+#           convert output table to json files               #
+#------------------------------------------------------------#
+echo 
+if [ ! -d "$OUTPUT/table" ]; 
+  then mkdir $OUTPUT/table
+else
+  mv $OUTPUT/table $OUTPUT/z_archive
+  mv $OUTPUT/z_archive/table "$OUTPUT/z_archive/table.$(date)"
+  mkdir $OUTPUT/table
+fi
+
+Rscript $SCRIPTS/convert_results_to_json_working.R
+echo
+echo "metadata added"
+echo
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
