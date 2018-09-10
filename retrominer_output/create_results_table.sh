@@ -87,6 +87,7 @@ echo "results table created"
 echo 
 Rscript $SCRIPTS/adding_consequence_to_output_table.R
 echo
+echo
 echo "metadata added"
 echo
 
@@ -108,11 +109,6 @@ echo
 echo "converted table data to json"
 echo
  
-
-## next thing to incorperate is the python script
-# work on bash code to fix the folder moving
-# and then ask nayam to modify the python script and remove the bash code
-
 
 #------------------------------------------------------------#
 #                     fix json files                         #
@@ -138,15 +134,6 @@ cd $DIR
 echo
 echo "fixed json files"
 echo
-
-
-
-
-
-
-
-
-
 
 
 
