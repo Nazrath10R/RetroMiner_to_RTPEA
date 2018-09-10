@@ -20,14 +20,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "ORF2p_HS_58",
-        "confidence": 5.675
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HS_58",
+          "confidence": 5.675
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -47,14 +51,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -74,14 +82,110 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": ["ORF1p_PA2_31", "ORF1p_HS_110", "ORF1p_HOT_4", "ORF1p_PA2_8", "ORF1p_HS_33", "ORF1p_HS_102", "ORF1p_HS_1"],
-        "confidence": [2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977]
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_PA2_5", "ORF2p_HS_47", "ORF2p_HS_120", "ORF2p_HS_88", "ORF2p_PA2_12", "ORF2p_PA2_19", "ORF2p_PA2_28", "ORF2p_HS_72", "ORF2p_PA2_16", "ORF2p_HS_21", "ORF2p_HS_109", "ORF2p_PA2_25", "ORF2p_PA3_1", "ORF2p_PA2_7", "ORF2p_HS_19", "ORF2p_HS_100", "ORF2p_HS_103", "ORF2p_PA2_29"],
-        "confidence": [16.318, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977, 2.977]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "ORF1p_PA2_31",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF1p_HS_110",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF1p_HOT_4",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF1p_PA2_8",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF1p_HS_33",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF1p_HS_102",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF1p_HS_1",
+          "confidence": 2.977
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_PA2_5",
+          "confidence": 16.318
+        },
+        {
+          "name": "ORF2p_HS_47",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_HS_120",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_HS_88",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_PA2_12",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_PA2_19",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_PA2_28",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_HS_72",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_PA2_16",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_HS_21",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_HS_109",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_PA2_25",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_PA3_1",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_PA2_7",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_HS_19",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_HS_100",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_HS_103",
+          "confidence": 2.977
+        },
+        {
+          "name": "ORF2p_PA2_29",
+          "confidence": 2.977
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -101,14 +205,78 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": ["ORF1p_PA2_29", "ORF1p_HS_1", "ORF1p_HS_110"],
-        "confidence": [3.817, 3.817, 3.817]
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_HOT_4", "ORF2p_HS_120", "ORF2p_HS_56", "ORF2p_HS_43", "ORF2p_PA2_12", "ORF2p_PA3_1", "ORF2p_HS_50", "ORF2p_HS_101", "ORF2p_HS_6", "ORF2p_HS_40", "ORF2p_HOT_6", "ORF2p_PA2_19", "ORF2p_PA2_13", "ORF2p_HS_103"],
-        "confidence": [3.817, 3.817, 3.817, 3.817, 3.817, 3.817, 3.817, 3.817, 3.817, 3.817, 3.817, 3.817, 3.817, 3.817]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "ORF1p_PA2_29",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF1p_HS_1",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF1p_HS_110",
+          "confidence": 3.817
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HOT_4",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_HS_120",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_HS_56",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_HS_43",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_PA2_12",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_PA3_1",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_HS_50",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_HS_101",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_HS_6",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_HS_40",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_HOT_6",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_PA2_19",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_PA2_13",
+          "confidence": 3.817
+        },
+        {
+          "name": "ORF2p_HS_103",
+          "confidence": 3.817
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -128,14 +296,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "ORF1p_PA2_4",
-        "confidence": 33.898
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "ORF1p_PA2_4",
+          "confidence": 33.898
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -155,14 +327,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -182,14 +358,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -209,14 +389,30 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": ["ORF1p_HS_120", "ORF1p_PA2_5"],
-        "confidence": [8.772, 2.262]
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_HOT_4", "ORF2p_HS_101", "ORF2p_PA3_1"],
-        "confidence": [2.262, 2.262, 2.262]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "ORF1p_HS_120",
+          "confidence": 8.772
+        },
+        {
+          "name": "ORF1p_PA2_5",
+          "confidence": 2.262
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HOT_4",
+          "confidence": 2.262
+        },
+        {
+          "name": "ORF2p_HS_101",
+          "confidence": 2.262
+        },
+        {
+          "name": "ORF2p_PA3_1",
+          "confidence": 2.262
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -236,14 +432,30 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_HS_119", "ORF2p_PA2_31", "ORF2p_PA2_18", "ORF2p_HS_100"],
-        "confidence": [11.679, 11.679, 2.752, 2.752]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HS_119",
+          "confidence": 11.679
+        },
+        {
+          "name": "ORF2p_PA2_31",
+          "confidence": 11.679
+        },
+        {
+          "name": "ORF2p_PA2_18",
+          "confidence": 2.752
+        },
+        {
+          "name": "ORF2p_HS_100",
+          "confidence": 2.752
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -263,14 +475,90 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": ["ORF1p_PA3_1", "ORF1p_HS_26", "ORF1p_HS_93", "ORF1p_HS_34"],
-        "confidence": [2.383, 2.383, 2.383, 2.383]
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_HS_67", "ORF2p_HS_40", "ORF2p_PA2_20", "ORF2p_HS_43", "ORF2p_HS_33", "ORF2p_PA2_30", "ORF2p_PA2_12", "ORF2p_PA2_33", "ORF2p_HS_114", "ORF2p_HS_76", "ORF2p_HS_111", "ORF2p_HS_122", "ORF2p_PA2_34", "ORF2p_PA2_24", "ORF2p_HS_42", "ORF2p_HS_38"],
-        "confidence": [16.15, 4.389, 4.389, 2.383, 2.383, 2.383, 2.383, 2.383, 2.383, 2.383, 2.383, 2.383, 2.383, 2.383, 2.383, 2.383]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "ORF1p_PA3_1",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF1p_HS_26",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF1p_HS_93",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF1p_HS_34",
+          "confidence": 2.383
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HS_67",
+          "confidence": 16.15
+        },
+        {
+          "name": "ORF2p_HS_40",
+          "confidence": 4.389
+        },
+        {
+          "name": "ORF2p_PA2_20",
+          "confidence": 4.389
+        },
+        {
+          "name": "ORF2p_HS_43",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_HS_33",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_PA2_30",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_PA2_12",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_PA2_33",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_HS_114",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_HS_76",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_HS_111",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_HS_122",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_PA2_34",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_PA2_24",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_HS_42",
+          "confidence": 2.383
+        },
+        {
+          "name": "ORF2p_HS_38",
+          "confidence": 2.383
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -290,14 +578,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -317,14 +609,82 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": ["ORF1p_HS_37", "ORF1p_HS_39", "ORF1p_HS_53", "ORF1p_HS_1", "ORF1p_HS_68", "ORF1p_PA2_20"],
-        "confidence": [4.379, 1.528, 1.528, 1.528, 1.528, 1.528]
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_HS_39", "ORF2p_HS_54", "ORF2p_HOT_4", "ORF2p_PA2_27", "ORF2p_HS_102", "ORF2p_HS_50", "ORF2p_HS_101", "ORF2p_HS_58", "ORF2p_HS_18", "ORF2p_HS_122", "ORF2p_HS_67", "ORF2p_PA2_6"],
-        "confidence": [4.379, 4.379, 1.528, 1.528, 1.528, 1.528, 1.528, 1.528, 1.528, 1.528, 1.528, 1.528]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "ORF1p_HS_37",
+          "confidence": 4.379
+        },
+        {
+          "name": "ORF1p_HS_39",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF1p_HS_53",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF1p_HS_1",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF1p_HS_68",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF1p_PA2_20",
+          "confidence": 1.528
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HS_39",
+          "confidence": 4.379
+        },
+        {
+          "name": "ORF2p_HS_54",
+          "confidence": 4.379
+        },
+        {
+          "name": "ORF2p_HOT_4",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF2p_PA2_27",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF2p_HS_102",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF2p_HS_50",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF2p_HS_101",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF2p_HS_58",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF2p_HS_18",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF2p_HS_122",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF2p_HS_67",
+          "confidence": 1.528
+        },
+        {
+          "name": "ORF2p_PA2_6",
+          "confidence": 1.528
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -344,14 +704,102 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": ["ORF1p_HS_37", "ORF1p_PA2_30", "ORF1p_HS_112", "ORF1p_PA2_17"],
-        "confidence": [4.429, 1.634, 1.634, 1.634]
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_HOT_4", "ORF2p_HS_120", "ORF2p_PA2_14", "ORF2p_PA2_8", "ORF2p_HS_7", "ORF2p_HS_30", "ORF2p_PA2_27", "ORF2p_PA2_5", "ORF2p_HS_21", "ORF2p_HS_15", "ORF2p_HS_115", "ORF2p_HOT_6", "ORF2p_PA2_21", "ORF2p_PA2_18", "ORF2p_PA2_19", "ORF2p_PA2_13", "ORF2p_PA2_20", "ORF2p_HS_103", "ORF2p_PA2_24"],
-        "confidence": [4.429, 4.429, 4.429, 1.634, 1.634, 1.634, 1.634, 1.634, 1.634, 1.634, 1.634, 1.634, 1.634, 1.634, 1.634, 1.634, 1.634, 1.634, 1.634]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "ORF1p_HS_37",
+          "confidence": 4.429
+        },
+        {
+          "name": "ORF1p_PA2_30",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF1p_HS_112",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF1p_PA2_17",
+          "confidence": 1.634
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HOT_4",
+          "confidence": 4.429
+        },
+        {
+          "name": "ORF2p_HS_120",
+          "confidence": 4.429
+        },
+        {
+          "name": "ORF2p_PA2_14",
+          "confidence": 4.429
+        },
+        {
+          "name": "ORF2p_PA2_8",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_HS_7",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_HS_30",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_PA2_27",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_PA2_5",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_HS_21",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_HS_15",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_HS_115",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_HOT_6",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_PA2_21",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_PA2_18",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_PA2_19",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_PA2_13",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_PA2_20",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_HS_103",
+          "confidence": 1.634
+        },
+        {
+          "name": "ORF2p_PA2_24",
+          "confidence": 1.634
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -371,14 +819,94 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": ["ORF1p_PA2_27", "ORF1p_HS_58", "ORF1p_PA2_20", "ORF1p_HS_101"],
-        "confidence": [3.289, 3.289, 3.289, 3.289]
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_PA2_31", "ORF2p_PA2_35", "ORF2p_HS_47", "ORF2p_HS_16", "ORF2p_HS_101", "ORF2p_PA2_4", "ORF2p_HS_33", "ORF2p_PA2_30", "ORF2p_HS_72", "ORF2p_HS_53", "ORF2p_HS_86", "ORF2p_PA2_21", "ORF2p_PA2_34", "ORF2p_HS_42", "ORF2p_HS_38", "ORF2p_HS_78", "ORF2p_HS_108"],
-        "confidence": [6.268, 3.289, 3.289, 3.289, 3.289, 3.289, 3.289, 3.289, 3.289, 3.289, 3.289, 3.289, 3.289, 3.289, 3.289, 3.289, 3.289]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "ORF1p_PA2_27",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF1p_HS_58",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF1p_PA2_20",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF1p_HS_101",
+          "confidence": 3.289
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_PA2_31",
+          "confidence": 6.268
+        },
+        {
+          "name": "ORF2p_PA2_35",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_HS_47",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_HS_16",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_HS_101",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_PA2_4",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_HS_33",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_PA2_30",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_HS_72",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_HS_53",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_HS_86",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_PA2_21",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_PA2_34",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_HS_42",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_HS_38",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_HS_78",
+          "confidence": 3.289
+        },
+        {
+          "name": "ORF2p_HS_108",
+          "confidence": 3.289
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -398,14 +926,22 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_HOT_1", "ORF2p_HS_53"],
-        "confidence": [16.06, 0.575]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HOT_1",
+          "confidence": 16.06
+        },
+        {
+          "name": "ORF2p_HS_53",
+          "confidence": 0.575
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -425,14 +961,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "ORF2p_HS_25",
-        "confidence": 17.231
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HS_25",
+          "confidence": 17.231
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -452,14 +992,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -479,14 +1023,22 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": ["ORF1p_PA2_31", "ORF1p_PA2_23"],
-        "confidence": [4.265, 1.901]
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "ORF1p_PA2_31",
+          "confidence": 4.265
+        },
+        {
+          "name": "ORF1p_PA2_23",
+          "confidence": 1.901
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -506,14 +1058,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "ORF2p_HS_39",
-        "confidence": 51.429
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HS_39",
+          "confidence": 51.429
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -533,14 +1089,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -560,14 +1120,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "ORF2p_HS_3",
-        "confidence": 40.426
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HS_3",
+          "confidence": 40.426
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -587,14 +1151,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -614,14 +1182,30 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_PA2_17", "ORF2p_PA2_32", "ORF2p_HS_6", "ORF2p_HS_108"],
-        "confidence": [21.385, 5.44, 1.271, 1.271]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_PA2_17",
+          "confidence": 21.385
+        },
+        {
+          "name": "ORF2p_PA2_32",
+          "confidence": 5.44
+        },
+        {
+          "name": "ORF2p_HS_6",
+          "confidence": 1.271
+        },
+        {
+          "name": "ORF2p_HS_108",
+          "confidence": 1.271
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -641,14 +1225,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "ORF2p_PA2_13",
-        "confidence": 54.667
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_PA2_13",
+          "confidence": 54.667
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -668,14 +1256,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "ORF2p_HS_119",
-        "confidence": 19.404
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HS_119",
+          "confidence": 19.404
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -695,14 +1287,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -722,14 +1318,22 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_HS_59", "ORF2p_HS_103"],
-        "confidence": [66.667, 44.231]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HS_59",
+          "confidence": 66.667
+        },
+        {
+          "name": "ORF2p_HS_103",
+          "confidence": 44.231
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -749,14 +1353,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "ORF2p_HS_21",
-        "confidence": 32.692
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HS_21",
+          "confidence": 32.692
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -776,14 +1384,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "ORF2p_PA2_17",
-        "confidence": 0.845
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_PA2_17",
+          "confidence": 0.845
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -803,14 +1415,38 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_HS_114", "ORF2p_PA2_17", "ORF2p_HS_94", "ORF2p_HS_106", "ORF2p_PA2_20", "ORF2p_HS_34"],
-        "confidence": [17.336, 17.336, 17.336, 17.336, 2.007, 2.007]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HS_114",
+          "confidence": 17.336
+        },
+        {
+          "name": "ORF2p_PA2_17",
+          "confidence": 17.336
+        },
+        {
+          "name": "ORF2p_HS_94",
+          "confidence": 17.336
+        },
+        {
+          "name": "ORF2p_HS_106",
+          "confidence": 17.336
+        },
+        {
+          "name": "ORF2p_PA2_20",
+          "confidence": 2.007
+        },
+        {
+          "name": "ORF2p_HS_34",
+          "confidence": 2.007
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -830,14 +1466,30 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "ORF1p_PA2_25",
-        "confidence": 23.077
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_PA2_34", "ORF2p_PA3_1", "ORF2p_HS_116", "ORF2p_HS_116"],
-        "confidence": [41.379, 38.983, 18.868, 18.519]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "ORF1p_PA2_25",
+          "confidence": 23.077
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_PA2_34",
+          "confidence": 41.379
+        },
+        {
+          "name": "ORF2p_PA3_1",
+          "confidence": 38.983
+        },
+        {
+          "name": "ORF2p_HS_116",
+          "confidence": 18.868
+        },
+        {
+          "name": "ORF2p_HS_116",
+          "confidence": 18.519
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -857,14 +1509,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -884,14 +1540,126 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": ["ORF1p_HS_12", "ORF1p_PA2_4", "ORF1p_PA2_30", "ORF1p_HOT_4", "ORF1p_PA2_18", "ORF1p_HS_67", "ORF1p_PA2_11"],
-        "confidence": [19.679, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259]
-      },
-      "ORF2p_variants": {
-        "name": ["ORF2p_HOT_4", "ORF2p_PA2_16", "ORF2p_HS_67", "ORF2p_PA2_22", "ORF2p_HS_36", "ORF2p_PA2_1", "ORF2p_HS_33", "ORF2p_HS_71", "ORF2p_PA2_23", "ORF2p_HS_93", "ORF2p_PA3_1", "ORF2p_PA2_7", "ORF2p_HS_101", "ORF2p_PA2_26", "ORF2p_HS_116", "ORF2p_HS_52", "ORF2p_PA2_13", "ORF2p_PA2_20", "ORF2p_HS_100", "ORF2p_HS_20", "ORF2p_PA2_11", "ORF2p_HS_103"],
-        "confidence": [2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259, 2.259]
-      },
+      "ORF1p_variants": [
+        {
+          "name": "ORF1p_HS_12",
+          "confidence": 19.679
+        },
+        {
+          "name": "ORF1p_PA2_4",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF1p_PA2_30",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF1p_HOT_4",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF1p_PA2_18",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF1p_HS_67",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF1p_PA2_11",
+          "confidence": 2.259
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_HOT_4",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_PA2_16",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_HS_67",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_PA2_22",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_HS_36",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_PA2_1",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_HS_33",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_HS_71",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_PA2_23",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_HS_93",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_PA3_1",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_PA2_7",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_HS_101",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_PA2_26",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_HS_116",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_HS_52",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_PA2_13",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_PA2_20",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_HS_100",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_HS_20",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_PA2_11",
+          "confidence": 2.259
+        },
+        {
+          "name": "ORF2p_HS_103",
+          "confidence": 2.259
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -911,14 +1679,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -938,14 +1710,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
       "HERV": {
         "confidence": 0
       }
@@ -965,14 +1741,18 @@
       "ORF0": {
         "confidence": 0
       },
-      "ORF1p_variants": {
-        "name": "NA",
-        "confidence": 0
-      },
-      "ORF2p_variants": {
-        "name": "ORF2p_PA2_26",
-        "confidence": 46.875
-      },
+      "ORF1p_variants": [
+        {
+          "name": "NA",
+          "confidence": 0
+        }
+      ],
+      "ORF2p_variants": [
+        {
+          "name": "ORF2p_PA2_26",
+          "confidence": 46.875
+        }
+      ],
       "HERV": {
         "confidence": 0
       }

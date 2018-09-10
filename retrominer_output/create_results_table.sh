@@ -17,7 +17,7 @@
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # ssh apoc5
-# module load 3.4.3
+# R version to use - 3.4.3
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 
@@ -109,13 +109,35 @@ echo "converted table data to json"
 echo
  
 
+## next thing to incorperate is the python script
+# work on bash code to fix the folder moving
+# and then ask nayam to modify the python script and remove the bash code
 
 
+#------------------------------------------------------------#
+#                     fix json files                         #
+#------------------------------------------------------------#
 
+# copy this script into that folder
+cp $SCRIPTS/Fix_Json_ORF.py $OUTPUT/table
 
+cd $OUTPUT/table
+python Fix_Json_ORF.py
 
+# maybe archive it instead of deleting
+find $OUTPUT/table -maxdepth 1 -name '*.jSON' -delete
 
+# move all files up by one directory
+mv $OUTPUT/table/output/* $OUTPUT/table/
 
+rmdir output
+rm Fix_Json_ORF.py
+
+cd $DIR
+
+echo
+echo "fixed json files"
+echo
 
 
 
