@@ -1,11 +1,29 @@
 
-setwd("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results")
+suppressMessages(library("argparser"))    # Argument passing
 
-table <- read.table("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results/final/output_table.txt", sep= "\t", header = TRUE)
+parser <- arg_parser("This parser contains the input arguments")
 
-consequence_table <- read.table("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/input_data/metadata/consequence.txt", sep = "\t", header = TRUE)
+parser <- add_argument(parser, "--DATA",
+                       help = "retrominer_output/results")
+parser <- add_argument(parser, "--META",
+                       help = "input_data/metadata")
+parser <- add_argument(parser, "--SIZES",
+                       help = "size data")
 
-size_table <- read.table("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/input_data/sizes/sizes_matrix.txt", header = TRUE)
+argv   <- parse_args(parser)
+
+dir   <- argv$DATA
+metadata <- argv$META
+size_data <- argv$SIZES
+
+# setwd("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results")
+setwd(dir)
+
+table <- read.table(paste(dir,"/final/output_table.txt", sep = ""), sep= "\t", header = TRUE)
+
+consequence_table <- read.table(paste(metadata, "/consequence.txt", sep= ""), sep = "\t", header = TRUE)
+
+size_table <- read.table(paste(size_data, "/sizes_matrix.txt", sep = ""), header = TRUE)
 
 
 ####

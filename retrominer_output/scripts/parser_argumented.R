@@ -7,9 +7,8 @@
 
 # rm(list=ls())
 
-dir <- "/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results"
+# dir <- "/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results"
 
-setwd(paste(dir,"/", sep = ""))
 
 suppressMessages(library("argparser"))    # Argument passing
 
@@ -17,10 +16,16 @@ parser <- arg_parser("This parser contains the input arguments")
 
 parser <- add_argument(parser, "--PXD",
                        help = "PRIDE Accession number")
+parser <- add_argument(parser, "--DIR",
+                       help = "directory with retrominer output")
 
 argv   <- parse_args(parser)
 
 PXD   <- argv$PXD
+dir   <- argv$DIR
+
+setwd(paste(dir,"/", sep = ""))
+
 
 # argument
 # PXD <- "PXD002212"
@@ -28,7 +33,6 @@ PXD   <- argv$PXD
 
 # PXD <- "PXD003407"
 # Samples <- 26
-
 
 
 # experimental design table
@@ -276,8 +280,6 @@ for(sample in 1:Samples) {
 }
 
 
-
-
 # print(result_table)
 
 df = as.matrix(result_table)
@@ -286,8 +288,6 @@ filename <- paste(dir,
                 PXD, paste(PXD,"parsed.txt",sep="_"),sep="/")
 
 write.table(df, filename, sep = "\t", row.names=FALSE, quote=FALSE)
-
-
 
 
 print(paste("experimental design added to: ", PXD, sep = ""))

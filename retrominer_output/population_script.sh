@@ -12,7 +12,7 @@
 
 #============================================================#
 # sh create_results_table.sh ARGS
-# sh create_results_table.sh 
+# sh population_script.sh
 #============================================================#
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -27,6 +27,8 @@ DATA=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results
 SCRIPTS=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/scripts
 OUTPUT=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/output_data
 ARCHIVE=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/z_archive
+META=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/input_data/metadata
+SIZES=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/input_data/sizes
 
 cd $DIR
 echo -en "\033[34m"
@@ -57,7 +59,8 @@ echo "filtration completed"
 echo
 echo
 for i in "${PXD[@]}"
-  do Rscript $SCRIPTS/parser_argumented.R --PXD "$i"
+  do Rscript $SCRIPTS/parser_argumented.R \
+              --PXD "$i" --DIR "$DATA"
 done
 echo
 echo "added experimental design to results"
@@ -85,7 +88,8 @@ echo "results table created"
 #         collate all results in one output table            #
 #------------------------------------------------------------#
 echo 
-Rscript $SCRIPTS/adding_consequence_to_output_table.R
+Rscript $SCRIPTS/adding_consequence_to_output_table.R \
+        --DATA "$DATA" --META "$META" --SIZES "$SIZES"
 echo
 echo
 echo "metadata added"
