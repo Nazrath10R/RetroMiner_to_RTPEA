@@ -25,13 +25,16 @@
 ## Set up all path variables
 WD=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA
 
-DIR=$WD/retrominer_output
-DATA=$WD/retrominer_output/results
-SCRIPTS=$WD/retrominer_output/scripts
-OUTPUT=$WD/output_data
+DIR=$WD/src
+SCRIPTS=$WD/src/scripts
+
+DATA=$WD/input/retrominer_results
+META=$WD/input/metadata
+SIZES=$WD/input/sizes
+
+OUTPUT=$WD/output
+
 ARCHIVE=$WD/z_archive
-META=$WD/retrominer_output/input_data/metadata
-SIZES=$WD/retrominer_output/input_data/sizes
 EXAMPLES=$WD/example_files
 
 echo
@@ -44,7 +47,7 @@ echo -en "\033[0m"
 #------------------------------------------------------------#
 echo
 ## get all PXDs to parse 
-Rscript $SCRIPTS/pxd_statuses.R
+Rscript $SCRIPTS/00_pxd_statuses.R --DIR "$DIR"
 echo
 readarray -t PXD < $DIR/pxd_list.txt
 echo "PXD list created"
@@ -64,7 +67,7 @@ echo "filtration completed"
 echo
 echo
 for i in "${PXD[@]}"
-  do Rscript $SCRIPTS/parser_argumented.R \
+  do Rscript $SCRIPTS/01_parser_argumented.R \
               --PXD "$i" --DIR "$DATA"
 done
 echo
@@ -85,7 +88,7 @@ fi
 # needs to overwite
 find $DATA -name 'PXD*_parsed.txt' -exec mv -it $DATA/final {} \;
 echo
-Rscript $SCRIPTS/make_output_table.R --DIR "$DATA/final/"
+Rscript $SCRIPTS/02_make_output_table.R --DIR "$DATA/final/"
 echo
 echo "results table created"
 
@@ -93,7 +96,7 @@ echo "results table created"
 #         collate all results in one output table            #
 #------------------------------------------------------------#
 echo 
-Rscript $SCRIPTS/adding_consequence_to_output_table.R \
+Rscript $SCRIPTS/03_adding_consequence_to_output_table.R \
         --DATA "$DATA" --META "$META" --SIZES "$SIZES"
 echo
 echo
@@ -113,7 +116,7 @@ else
   mkdir $OUTPUT/table
 fi
 
-Rscript $SCRIPTS/convert_results_to_json_working.R \
+Rscript $SCRIPTS/04_convert_results_to_json_working.R \
         --DATA "$DATA" --EXAMPLES "$EXAMPLES" --OUTPUT "$OUTPUT"
 echo
 echo "converted table data to json"
@@ -125,7 +128,7 @@ echo
 #------------------------------------------------------------#
 
 # copy this script into that folder
-cp $SCRIPTS/Fix_Json_ORF.py $OUTPUT/table
+cp $SCRIPTS/05_Fix_Json_ORF.py $OUTPUT/table
 
 cd $OUTPUT/table
 python Fix_Json_ORF.py
