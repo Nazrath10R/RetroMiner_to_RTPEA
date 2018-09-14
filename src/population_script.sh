@@ -131,7 +131,7 @@ echo
 cp $SCRIPTS/05_Fix_Json_ORF.py $OUTPUT/table
 
 cd $OUTPUT/table
-python Fix_Json_ORF.py
+python 05_Fix_Json_ORF.py
 
 # maybe archive it instead of deleting
 find $OUTPUT/table -maxdepth 1 -name '*.jSON' -delete
@@ -140,7 +140,7 @@ find $OUTPUT/table -maxdepth 1 -name '*.jSON' -delete
 mv $OUTPUT/table/output/* $OUTPUT/table/
 
 rmdir output
-rm Fix_Json_ORF.py
+rm 05_Fix_Json_ORF.py
 
 cd $DIR
 
