@@ -1,0 +1,90 @@
+{
+  "PXD": "PXD002211",
+  "study": "inflammation",
+  "disease": "normal",
+  "no_of_samples": 3,
+  "spectralSize": 841.727,
+  "sample": [
+    {
+      "Snumber": 1,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "HUVEC",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 2,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "HUVEC",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    },
+    {
+      "Snumber": 3,
+      "replicate": 1,
+      "phenotype": "NA",
+      "tissue_type": "HUVEC",
+      "diseaseState": "healthy",
+      "ORF1p": {
+        "confidence": 0
+      },
+      "ORF2p": {
+        "confidence": 0
+      },
+      "ORF0": {
+        "confidence": 0
+      },
+      "ORF1p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "ORF2p_variants": {
+        "name": "NA",
+        "confidence": 0
+      },
+      "HERV": {
+        "confidence": 0
+      }
+    }
+  ]
+}

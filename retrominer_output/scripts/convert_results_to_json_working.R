@@ -1,4 +1,4 @@
-#!/usr/bin/Rsript
+#!/usr/bin/Rscript
 
 ####################################################################
 ##   converting RetroMiner's parsed output_table to jSON format   ##
@@ -11,6 +11,28 @@
 ########################################################################
 
 rm(list=ls())
+
+########################################################################
+
+suppressMessages(library("argparser"))    # Argument passing
+
+parser <- arg_parser("This parser contains the input arguments")
+
+parser <- add_argument(parser, "--DATA",
+                       help = "retrominer_output/results")
+parser <- add_argument(parser, "--OUTPUT",
+                       help = "output directory")
+parser <- add_argument(parser, "--EXAMPLES",
+                       help = "path to directory with example files")
+
+
+
+argv   <- parse_args(parser)
+
+dir   <- argv$DATA
+output <- argv$OUTPUT
+example <- argv$EXAMPLES
+
 
 ########################################################################
 
@@ -30,29 +52,32 @@ print.json <- function(x) {
 
 ########################################################################
 
+
+
+
 #### Libraries #### 
 # install.packages('jsonlite', dependencies=TRUE, repos='http://cran.rstudio.com/')
 suppressMessages(library("jsonlite"))   # read / write jSON files in R
 
 
 #### working directory #### 
-setwd("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results")
+setwd(dir)
 
 #### reset counter #### 
-counter_data <- fromJSON("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/example_files/CounterData.json")
+counter_data <- fromJSON(paste(example,"/CounterData.json", sep = ""))
 counter_data$prideDatasets <- 0
 counter_data$samples <- 0
 counter_data$specSize <- 0
-write.json(counter_data, "/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/example_files/CounterData.json")
+write.json(counter_data, paste(example,"/CounterData.json", sep = ""))
 
 #### Input #### 
 # diseaseState
 # spectralSize
 # load example jSON - CHANGE PATH
-json_copy <- fromJSON("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/example_files/example.json")
+json_copy <- fromJSON(paste(example,"/example.json", sep = ""))
 
 # read in RetroMiner output
-table <- read.table("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results/final/output_table_with_consequence.txt", sep= "\t", header = TRUE)
+table <- read.table(paste(dir, "/final/output_table_with_consequence.txt", sep = ""), sep= "\t", header = TRUE)
 
 # add fields for manual description
 # Consequence table goes here
@@ -94,8 +119,7 @@ output_to_json_conversion <- function(y) {
     
   
   ## counter file
-  counter_data <- fromJSON("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/example_files/CounterData.json")
-
+  counter_data <- fromJSON(paste(example, "/CounterData.json", sep = ""))
   
   # extract metadata for dataset
   meta <- unique(current_dataset[,1:4])
@@ -197,11 +221,11 @@ output_to_json_conversion <- function(y) {
   
   # print(paste(pxd, " size: ", round(counter_data$specSize, 3)))
   
-  write.json(counter_data, "/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/example_files/CounterData.json")
+  write.json(counter_data, paste(example,"/CounterData.json", sep = ""))
   
   
   ## write jSON out
-  write.json(new_json, paste("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/output_data/table/", pxd, ".jSON", sep = ""))
+  write.json(new_json, paste(paste(output, "/table/", sep = ""), pxd, ".jSON", sep = ""))
 
 }
 

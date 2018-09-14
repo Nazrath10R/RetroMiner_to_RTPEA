@@ -1,0 +1,7 @@
+Dataset	Disease	Tissue	Sample	Replicate	ORF1p	ORF2p	ORF0	ORF1p_variants	ORF2p_variants	HERV_proteins	PTMs
+PXD004624	cachectic_melanoma	NA	1	1	0	0	0	ORF1p_HS_94_(78.571)	0	0	NA
+PXD004624	cachectic_melanoma	NA	1	1	0	0	0	ORF1p_HS_94_(78.571)	0	0	NA
+PXD004624	cachectic_melanoma	NA	2	1	0	0	0	0	0	0	NA
+PXD004624	cachectic_melanoma	NA	2	1	0	0	0	0	0	0	NA
+PXD004624	cachectic_melanoma	NA	3	1	0	0	0	ORF1p_HS_94_(46.154)	0	0	NA
+PXD004624	cachectic_melanoma	NA	3	1	0	0	0	ORF1p_HS_94_(46.154)	0	0	NA

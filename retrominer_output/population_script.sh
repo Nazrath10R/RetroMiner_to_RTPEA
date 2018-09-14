@@ -21,15 +21,20 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 
-echo
-DIR=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output
-DATA=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results
-SCRIPTS=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/scripts
-OUTPUT=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/output_data
-ARCHIVE=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/z_archive
-META=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/input_data/metadata
-SIZES=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/input_data/sizes
 
+## Set up all path variables
+WD=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA
+
+DIR=$WD/retrominer_output
+DATA=$WD/retrominer_output/results
+SCRIPTS=$WD/retrominer_output/scripts
+OUTPUT=$WD/output_data
+ARCHIVE=$WD/z_archive
+META=$WD/retrominer_output/input_data/metadata
+SIZES=$WD/retrominer_output/input_data/sizes
+EXAMPLES=$WD/example_files
+
+echo
 cd $DIR
 echo -en "\033[34m"
 echo "CREATE RESULTS TABLE FOR RETROMINER'S OUTPUT"
@@ -108,7 +113,8 @@ else
   mkdir $OUTPUT/table
 fi
 
-Rscript $SCRIPTS/convert_results_to_json_working.R
+Rscript $SCRIPTS/convert_results_to_json_working.R \
+        --DATA "$DATA" --EXAMPLES "$EXAMPLES" --OUTPUT "$OUTPUT"
 echo
 echo "converted table data to json"
 echo

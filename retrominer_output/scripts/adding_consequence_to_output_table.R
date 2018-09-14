@@ -1,3 +1,6 @@
+#!/usr/bin/Rscript
+
+#### add meta data to consequence table
 
 suppressMessages(library("argparser"))    # Argument passing
 
@@ -76,10 +79,7 @@ for(i in 1:length(unique(table$Dataset))) {
 }
 
 
-write.table(table, "/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results/final/output_table_with_consequence.txt", sep = "\t")
-
-
-
+write.table(table, paste(dir, "/final/output_table_with_consequence.txt", sep = ""), sep = "\t")
 
 
 
@@ -108,21 +108,5 @@ write.table(table, "/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_out
 #     
 #     
 # }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

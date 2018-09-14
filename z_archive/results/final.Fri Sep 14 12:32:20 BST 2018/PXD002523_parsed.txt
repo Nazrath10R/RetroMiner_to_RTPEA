@@ -1,0 +1,11 @@
+Dataset	Disease	Tissue	Sample	Replicate	ORF1p	ORF2p	ORF0	ORF1p_variants	ORF2p_variants	HERV_proteins	PTMs
+PXD002523	healthy	NA	 1	1	0	0	0	0	0	0	NA
+PXD002523	lung adenocarcinoma	NA	 2	1	0	0	0	0	0	0	NA
+PXD002523	healthy	NA	 3	1	0	0	0	0	0	0	NA
+PXD002523	lung adenocarcinoma	NA	 4	1	0	0	0	0	0	0	NA
+PXD002523	healthy	NA	 5	1	0	0	0	0	0	0	NA
+PXD002523	lung adenocarcinoma	NA	 6	1	0	0	0	0	ORF2p_PA2_17_(7.672)	0	NA
+PXD002523	healthy	NA	 7	1	0	0	0	0	0	0	NA
+PXD002523	lung adenocarcinoma	NA	 8	1	0	0	0	0	0	0	NA
+PXD002523	healthy	NA	 9	1	0	0	0	0	0	0	NA
+PXD002523	lung adenocarcinoma	NA	10	1	0	0	0	0	ORF2p_HS_3_(2.446)	0	NA
