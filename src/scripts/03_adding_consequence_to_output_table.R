@@ -71,8 +71,8 @@ for(i in 1:length(unique(table$Dataset))) {
       
       rep(as.numeric(size_table[which(size_table$PXD==as.character(pxd)),]$size), nrow(table[which(table$Dataset==pxd),]))
     
-    print(paste(paste(i, "/", length(unique(table$Dataset)), "added metadata to: "), pxd))
-  
+    if(i < 10) {print_i <- paste(0,i,sep = "")} else {print_i <- i}
+    print(paste(paste("(",print_i, "/", length(unique(table$Dataset)),")","added metadata to: "), pxd))
     
   }
   

@@ -9,19 +9,19 @@ suppressMessages(library(Biostrings))
 suppressMessages(library("jsonlite"))   # read / write jSON files in R
 suppressMessages(library("argparser"))    # Argument passing
 
-# parser <- arg_parser("This parser contains the input arguments")
+parser <- arg_parser("This parser contains the input arguments")
 
-# parser <- add_argument(parser, "--DATA",
-#                        help = "retrominer_output/results")
+parser <- add_argument(parser, "--DATA",
+                       help = "retrominer_output/results")
 parser <- add_argument(parser, "--OUTPUT",
                        help = "output directory")
 parser <- add_argument(parser, "--EXAMPLES",
                        help = "path to directory with example files")
 
 
-# argv   <- parse_args(parser)
+argv   <- parse_args(parser)
 
-# dir   <- argv$DATA
+dir   <- argv$DATA
 output <- argv$OUTPUT
 example <- argv$EXAMPLES
 
@@ -45,7 +45,7 @@ write.json <- function(x, file = "", ...) {
 # setwd("/Users/nazrathnawaz/Dropbox/PhD/retroelement_expression_atlas/data/variants/")
 
 LINE_1_consensus <- readAAStringSet(paste(sequence_dir, "/consensus_sequences.fasta", sep = ""))
-LINE_1_variants <- readAAStringSet(paste(sequence_dir,"/sequences/LINE_1.fasta", sep = ""))
+LINE_1_variants <- readAAStringSet(paste(sequence_dir,"/LINE_1.fasta", sep = ""))
 
 # load("../results/table.Rdata")
 # table 
@@ -72,18 +72,22 @@ confidence_level <- 10
 
 
 
-pxd_list <- c("PXD000944","PXD002211","PXD002212","PXD002523","PXD002614",
-  "PXD003271","PXD003406","PXD003407","PXD003408","PXD003409",
-  "PXD003410","PXD003411","PXD003412","PXD003413","PXD003414",
-  "PXD003415","PXD003416",
-  # "PXD003417","PXD003552",
-  "PXD003965","PXD004051","PXD004280","PXD004624", "PXD004625","PXD004626",
-  "PXD004682","PXD004818","PXD004987","PXD005150","PXD005733")
+# pxd_list <- c("PXD000944","PXD002211","PXD002212","PXD002523","PXD002614",
+#   "PXD003271","PXD003406","PXD003407","PXD003408","PXD003409",
+#   "PXD003410","PXD003411","PXD003412","PXD003413","PXD003414",
+#   "PXD003415","PXD003416",
+#   # "PXD003417","PXD003552",
+#   "PXD003965","PXD004051","PXD004280","PXD004624", "PXD004625","PXD004626",
+#   "PXD004682","PXD004818","PXD004987","PXD005150","PXD005733")
 
 
 # errors
 # "PXD003417","PXD003552"
 # HS 16 has an NA
+
+
+pxd_list <- readLines("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/src/pxd_list.txt")
+
 
 # 2212
 
@@ -94,11 +98,15 @@ for(pxd_id in 1:length(pxd_list)) {
   # print(pxd_list[pxd_id])
   
   PXD <- pxd_list[pxd_id]
-  print(PXD)
+  # print(PXD)
   
-  input_file_name <- paste(paste(output, "/table", sep = ""), PXD,".jSON", sep = "")
+  input_file_name <- paste(paste(output, "/table/", sep = ""), PXD,".jSON", sep = "")
+  
+  if(file.exists(input_file_name)==FALSE) { next }
+
   result_1 <- fromJSON(input_file_name)    
   
+
   for(protein in 1:2) {
   
     # protein=2
@@ -166,7 +174,7 @@ for(pxd_id in 1:length(pxd_list)) {
       
       
       #### jSON
-      json_template <- fromJSON(paste(example, "/visualise_example_new.json"))
+      json_template <- fromJSON(paste(example, "/visualise_example_new.json", sep = ""))
       
       no_of_variants <- nrow(variant_table)
       
@@ -222,13 +230,15 @@ for(pxd_id in 1:length(pxd_list)) {
       
       ####
       
-      write.json(json_template, file = paste(paste(output,"/results/",sep = ""), output_name,".jSON", sep=""))
+      write.json(json_template, file = paste(paste(output,"/protvista/",sep = ""), output_name,".jSON", sep=""))
       
       ####
       
       # print_json(json_template$features$siftScore)
       
-      print(paste(PXD, "completed", sep = " "))
+      if(pxd_id<10) { pxd_id_print <- paste(0, pxd_id, sep="") } else { pxd_id_print <- pxd_id }
+
+      print(paste("(", pxd_id_print, "of", length(pxd_list), ")" ,paste("ProtVista json generated: ", PXD, sep = " "), sep = " "))
     }
   }
 }

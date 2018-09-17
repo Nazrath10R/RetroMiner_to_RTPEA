@@ -23,26 +23,27 @@
 
 
 ## Set up all path variables
-WD=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA
+BASE_DIR=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA
 
-DIR=$WD/src
-SCRIPTS=$WD/src/scripts
+DIR=$BASE_DIR/src
+SCRIPTS=$BASE_DIR/src/scripts
 
-INPUT=$WD/input/retrominer_results/
-DATA=$WD/input/retrominer_results/individual_results
-META=$WD/input/metadata
-SIZES=$WD/input/sizes
+INPUT=$BASE_DIR/input/retrominer_results/
+DATA=$INPUT/individual_results
+META=$BASE_DIR/input/metadata
+SIZES=$BASE_DIR/input/sizes
 
-OUTPUT=$WD/output
+OUTPUT=$BASE_DIR/output
 
-ARCHIVE=$WD/z_archive
-EXAMPLES=$WD/example_files
+ARCHIVE=$BASE_DIR/z_archive
+EXAMPLES=$BASE_DIR/example_files
 
 echo
 cd $DIR
 echo -en "\033[34m"
 echo "CREATE RESULTS TABLE FOR RETROMINER'S OUTPUT"
 echo -en "\033[0m"
+
 #------------------------------------------------------------#
 #                    create a PXD list                       #
 #------------------------------------------------------------#
@@ -54,6 +55,7 @@ readarray -t PXD < $DIR/pxd_list.txt
 echo "PXD list created"
 # echo "${PXD[*]}"
 echo
+sh $SCRIPTS/loading.sh 3
 
 #------------------------------------------------------------#
 #             run custom PeptideShaker export                #
@@ -61,6 +63,7 @@ echo
 echo "start filtration"
 # sh $SCRIPTS/custom_report2.sh
 echo "filtration completed"
+sh $SCRIPTS/loading.sh 3
 
 #------------------------------------------------------------#
 #            add experimental design to results              #
@@ -84,6 +87,7 @@ echo
 # mv PXD* individual_results/
 echo
 echo "added experimental design to results"
+sh $SCRIPTS/loading.sh 3
 
 #------------------------------------------------------------#
 #         collate all results in one output table            #
@@ -104,7 +108,7 @@ echo
 Rscript $SCRIPTS/02_make_output_table.R --DIR "$INPUT/combined_results/"
 echo
 echo "results table created"
-
+sh $SCRIPTS/loading.sh 3
 
 #------------------------------------------------------------#
 #         collate all results in one output table            #
@@ -116,7 +120,7 @@ echo
 echo
 echo "metadata added"
 echo
-
+sh $SCRIPTS/loading.sh 3
 
 #------------------------------------------------------------#
 #           convert output table to json files               #
@@ -135,7 +139,7 @@ Rscript $SCRIPTS/04_convert_results_to_json_working.R \
 echo
 echo "converted table data to json"
 echo
- 
+sh $SCRIPTS/loading.sh 3
 
 #------------------------------------------------------------#
 #                     fix json files                         #
@@ -163,21 +167,45 @@ echo "fixed json files"
 echo
 
 
-#### checkpoint
-rm -r $ARCHIVE/results/*
-rm -r $ARCHIVE/table/*
-
-
 #------------------------------------------------------------#
 #           convert output table to json files               #
 #------------------------------------------------------------#
-
+echo 
+if [ ! -d "$OUTPUT/protvista" ]; 
+  then mkdir $OUTPUT/protvista
+else
+  mv $OUTPUT/protvista $ARCHIVE/protvista
+  mv $ARCHIVE/protvista/protvista "$ARCHIVE/protvista/protvista.$(date)"
+  mkdir $OUTPUT/protvista
+fi
 
 Rscript $SCRIPTS/06_conversion_4.R \
-        --EXAMPLES "$EXAMPLES" --OUTPUT "$OUTPUT"
+        --EXAMPLES "$EXAMPLES" --OUTPUT "$OUTPUT" --DATA "$PXD"
+
+echo
+echo "ProtVista json data generated"
+echo
+
+sh $SCRIPTS/loading.sh 3
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+#### checkpoint
+rm -r $ARCHIVE/results/*
+rm -r $ARCHIVE/table/*
+rm -r $ARCHIVE/protvista/*
+echo "archive cleared"
+echo
