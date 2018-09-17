@@ -1,2 +1,0 @@
-426	LINE_1_PA2_18_ORF2p								148.9290980128139	100.0	0.0	0.0	0	NaN							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
-903	LINE_1_PA2_20_ORF2p								148.96001109077076	100.0	0.0	0.0	0	NaN							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated

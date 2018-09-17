@@ -1,7 +1,0 @@
-350	LINE_1_PA2_15_ORF1p								39.8866500827475	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.4745333755140746	0	Not Validated
-453	LINE_1_HS_3_ORF2p								148.94408739234837	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.4745333755140746	0	Not Validated
-1235	LINE_1_PA2_5_ORF2p								149.05302853173995	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.4745333755140746	0	Not Validated
-1524	Q5T7N2	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	LINE-1 type transposase domain-containing protein 1 (LITD1_HUMAN)	ENSG00000240563	L1TD1	1			98.7885850767177	90.4	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.4745333755140746	0	Not Validated
-1711	LINE_1_HOT_5_ORF2p								148.93708494982025	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.4745333755140746	0	Not Validated
-1976	LINE_1_HS_33_ORF2p								149.1169495211702	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.4745333755140746	0	Not Validated
-3039	LINE_1_HOT_4_ORF1p								40.10773099300384	100.0	0.0	0.0	0	NaN							Related Proteins	0	1	1	0	0	0	0	1	0.4745333755140746	0	Not Validated

@@ -1,7 +1,0 @@
-Dataset	Disease	Tissue	Sample	Replicate	ORF1p	ORF2p	ORF0	ORF1p_variants	ORF2p_variants	HERV_proteins	PTMs
-PXD004626	control_serum	NA	1	1	0	 0.00000	0	0	0	0	NA
-PXD004626	control_serum	NA	1	1	0	 0.00000	0	0	0	0	NA
-PXD004626	control_serum	NA	2	1	0	22.34043	0	0	0	0	NA
-PXD004626	control_serum	NA	2	1	0	22.34043	0	0	0	0	NA
-PXD004626	control_serum	NA	3	1	0	 0.00000	0	0	0	0	NA
-PXD004626	control_serum	NA	3	1	0	 0.00000	0	0	0	0	NA

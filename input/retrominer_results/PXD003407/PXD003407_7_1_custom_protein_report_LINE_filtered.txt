@@ -1,1 +1,0 @@
-3129	LINE_1_HS_103_ORF2p								148.79080173473773	97.8	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	15.331010452961669	0	Not Validated

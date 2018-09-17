@@ -1,1 +1,0 @@
-455	LINE_1_HS_3_ORF2p								148.94408739234837	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	2.4464831804281384	0	Not Validated

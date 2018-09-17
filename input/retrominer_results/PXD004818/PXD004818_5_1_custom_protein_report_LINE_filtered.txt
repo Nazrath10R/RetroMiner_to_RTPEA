@@ -1,2 +1,0 @@
-10	LINE_1_HS_115_ORF2p								148.90303971387996	100.0	0.0	0.0	0	NaN							Related Proteins	0	1	0	0	0	0	1	1	5.047318611987384	0	Not Validated
-89	LINE_1_PA2_26_ORF2p								149.01600697647666	100.0	0.0	0.0	0	NaN							Single Protein	0	2	0	0	0	0	1	2	0.0	0	Not Validated

@@ -1,2 +1,0 @@
-1181	LINE_1_HS_83_ORF2p								148.98006963410924	100.0	0.0	0.0	0	0.0							Related Proteins	0	2	1	0	0	0	0	2	5.605095541401273	0	Not Validated
-1647	LINE_1_PA2_13_ORF2p								148.9930940921187	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	12.23744292237443	0	Not Validated

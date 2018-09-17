@@ -1,2 +1,0 @@
-1612	LINE_1_HS_115_ORF2p								148.90303971387996	92.39	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated
-2688	LINE_1_HS_2_ORF2p								149.03408694104954	94.2	0.0	0.0	0	0.0							Related Proteins	0	2	1	0	0	0	0	2	0.0	0	Not Validated

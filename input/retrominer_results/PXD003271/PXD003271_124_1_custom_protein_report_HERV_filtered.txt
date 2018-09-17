@@ -1,2 +1,0 @@
-1065	Q9XRX5	HERV-H LTR-associating protein 3 (HHLA3_HUMAN)	HERV-H LTR-associating protein 3 (HHLA3_HUMAN)	ENSG00000197568	HHLA3	1			12.904253394457427	100.0	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
-1737	Q902F9	Endogenous retrovirus group K member 113 Env polyprotein (EN113_HUMAN)	Endogenous retrovirus group K member 113 Env polyprotein (EN113_HUMAN)		HERVK_113				79.14348806960226	64.66	0.0	0.0	0	NaN							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

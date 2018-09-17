@@ -1,7 +1,0 @@
-1147	LINE_1_HS_74_ORF1p								40.07271163745824	100.0	0.0	0.0	0	0.0							Related Proteins	0	2	1	0	0	0	0	2	0.0	0	Not Validated
-1241	LINE_1_HS_40_ORF2p								148.94403324860056	97.8	1.1	1.1	0	1.464470199420129	Oxidation of M(M536)	Oxidation of M(1)					Single Protein	1	1	1	1	0	0	1	1	72.35294117647058	0	Not Validated
-3011	LINE_1_PA2_20_ORF2p								148.96001109077076	97.8	0.0	0.0	0	0.0							Single Protein	0	2	2	0	0	0	0	2	25.09881422924901	0	Not Validated
-4073	LINE_1_PA2_14_ORF2p								148.73971085404466	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
-4313	LINE_1_PA2_2_ORF1p								39.93463232450838	100.0	0.0	0.0	0	0.0							Single Protein	0	2	1	0	0	0	0	2	0.0	0	Not Validated
-4478	LINE_1_PA2_34_ORF2p								149.0228952582831	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated
-4776	LINE_1_HS_11_ORF2p								148.9761798532646	97.8	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated

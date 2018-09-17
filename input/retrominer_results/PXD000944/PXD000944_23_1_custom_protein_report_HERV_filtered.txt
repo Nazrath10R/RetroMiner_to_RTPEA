@@ -1,1 +1,0 @@
-1107	P61576	Endogenous retrovirus group K member 104 Rec protein (REC04_HUMAN)	Endogenous retrovirus group K member 104 Rec protein (REC04_HUMAN)		HERV-K104				11.727054690419015	73.33	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

@@ -1,1 +1,0 @@
-1130	LINE_1_PA2_21_ORF2p								149.02109216045903	97.8	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	0.0	0	Not Validated

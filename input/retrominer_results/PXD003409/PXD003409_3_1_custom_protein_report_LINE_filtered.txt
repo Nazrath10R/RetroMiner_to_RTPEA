@@ -1,2 +1,0 @@
-2128	LINE_1_PA2_4_ORF2p								149.146162523115	100.0	0.0	0.0	0	0.0							Single Protein	0	1	1	0	0	0	0	1	23.571428571428577	0	Not Validated
-2206	LINE_1_HS_2_ORF2p								149.03408694104954	97.8	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated

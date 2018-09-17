@@ -1,3 +1,0 @@
-1089	LINE_1_HS_115_ORF1p								40.019619711219356	100.0	0.0	0.0	0	0.0						0		0	Related Proteins	LINE_1_HS_89_ORF1p	LINE_1_HS_115_ORF1p, LINE_1_HS_89_ORF1p	0	1	1	0	0	0	0	1	0.0	0	Not Validated
-1639	LINE_1_HS_1_ORF1p								39.89555604833363	100.0	0.0	0.0	0	0.0						0		0	Single Protein		LINE_1_HS_1_ORF1p	0	1	1	0	0	0	0	1	0.0	0	Not Validated
-3194	LINE_1_PA2_4_ORF2p								149.146162523115	96.39	0.0	0.0	0	0.0						0		0	Single Protein		LINE_1_PA2_4_ORF2p	0	1	1	0	0	0	0	1	0.0	0	Not Validated

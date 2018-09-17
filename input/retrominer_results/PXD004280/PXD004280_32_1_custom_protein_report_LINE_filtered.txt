@@ -1,1 +1,0 @@
-4063	LINE_1_HS_120_ORF1p								39.83256424494856	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	0.0	0	Not Validated

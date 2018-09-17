@@ -1,1 +1,0 @@
-8	LINE_1_PA2_11_ORF1p								39.93350632125989	100.0	0.0	0.0	0	0.0							Related Proteins	0	1	1	0	0	0	0	1	7.518796992481203	0	Not Validated
