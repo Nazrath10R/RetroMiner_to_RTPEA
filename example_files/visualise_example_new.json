@@ -1,0 +1,24 @@
+{
+    "PXD" : "ORF2P",
+    "sequence" : "ABC",    
+    "features" : [ 
+	
+        {
+            "type" : "VARIANT",
+            "category" : "VARIATION",
+            "description" : "LINE_1_HS_122_ORF2p",
+            "alternativeSequence" : "N",
+            "begin" : "272",
+            "end" : "272",
+			"Family": "NA",
+            "wildType" : "K",
+			"consequence" : "Tissue_type",
+            "consequence2": "Tissue_type Disease / NA",
+			"consequence3": "Cancer / Adjacent healthy",
+            "polyphenPrediction" : "unknown",
+            "polyphenScore" : 0.0,
+            "siftPrediction" : "not tolerated, low value",
+            "siftScore" : 0
+        }
+    ]
+}
