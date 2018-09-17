@@ -1,10 +1,33 @@
+#!/usr/bin/Rscript
 
 rm(list=ls())
 
-#### Libraries #### 
+#### Libraries ####
+
+# library(seqLogo)
 suppressMessages(library(Biostrings))
 suppressMessages(library("jsonlite"))   # read / write jSON files in R
-# library(seqLogo)
+suppressMessages(library("argparser"))    # Argument passing
+
+# parser <- arg_parser("This parser contains the input arguments")
+
+# parser <- add_argument(parser, "--DATA",
+#                        help = "retrominer_output/results")
+parser <- add_argument(parser, "--OUTPUT",
+                       help = "output directory")
+parser <- add_argument(parser, "--EXAMPLES",
+                       help = "path to directory with example files")
+
+
+# argv   <- parse_args(parser)
+
+# dir   <- argv$DATA
+output <- argv$OUTPUT
+example <- argv$EXAMPLES
+
+sequence_dir <- paste(example, "/sequences", sep="")  
+
+########################################
 
 print_json <- function(x) {
   x.json <- toJSON(x, pretty = TRUE, na='string', auto_unbox = TRUE)
@@ -19,14 +42,15 @@ write.json <- function(x, file = "", ...) {
 
 ########################################
 
-setwd("/Users/nazrathnawaz/Dropbox/PhD/retroelement_expression_atlas/data/variants/")
-LINE_1_consensus <- readAAStringSet("./sequences/consensus_sequences.fasta")
-LINE_1_variants <- readAAStringSet("./sequences/LINE_1.fasta")
+# setwd("/Users/nazrathnawaz/Dropbox/PhD/retroelement_expression_atlas/data/variants/")
+
+LINE_1_consensus <- readAAStringSet(paste(sequence_dir, "/consensus_sequences.fasta", sep = ""))
+LINE_1_variants <- readAAStringSet(paste(sequence_dir,"/sequences/LINE_1.fasta", sep = ""))
 
 # load("../results/table.Rdata")
 # table 
 # table[which(table$ORF1p_variants!=0),]$ORF1p_variants
-genomic_table <- read.table("./genomic_table.txt", sep = "\t", header = TRUE)
+genomic_table <- read.table(paste(example, "/genomic_table.txt", sep = ""), sep = "\t", header = TRUE)
 
 ########################################
 
@@ -72,7 +96,7 @@ for(pxd_id in 1:length(pxd_list)) {
   PXD <- pxd_list[pxd_id]
   print(PXD)
   
-  input_file_name <- paste("../results/new/", PXD,".jSON", sep = "")
+  input_file_name <- paste(paste(output, "/table", sep = ""), PXD,".jSON", sep = "")
   result_1 <- fromJSON(input_file_name)    
   
   for(protein in 1:2) {
@@ -142,7 +166,7 @@ for(pxd_id in 1:length(pxd_list)) {
       
       
       #### jSON
-      json_template <- fromJSON("./visualise_example_new.json")
+      json_template <- fromJSON(paste(example, "/visualise_example_new.json"))
       
       no_of_variants <- nrow(variant_table)
       
@@ -198,7 +222,7 @@ for(pxd_id in 1:length(pxd_list)) {
       
       ####
       
-      write.json(json_template, file = paste("./results/", output_name,".jSON", sep=""))
+      write.json(json_template, file = paste(paste(output,"/results/",sep = ""), output_name,".jSON", sep=""))
       
       ####
       

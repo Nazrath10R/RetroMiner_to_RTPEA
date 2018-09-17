@@ -162,6 +162,22 @@ echo
 echo "fixed json files"
 echo
 
+
+#### checkpoint
 rm -r $ARCHIVE/results/*
 rm -r $ARCHIVE/table/*
+
+
+#------------------------------------------------------------#
+#           convert output table to json files               #
+#------------------------------------------------------------#
+
+
+Rscript $SCRIPTS/06_conversion_4.R \
+        --EXAMPLES "$EXAMPLES" --OUTPUT "$OUTPUT"
+
+
+
+
+
 
