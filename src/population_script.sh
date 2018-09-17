@@ -28,6 +28,7 @@ WD=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA
 DIR=$WD/src
 SCRIPTS=$WD/src/scripts
 
+INPUT=$WD/input/retrominer_results/
 DATA=$WD/input/retrominer_results/individual_results
 META=$WD/input/metadata
 SIZES=$WD/input/sizes
@@ -78,8 +79,9 @@ for i in "${PXD[@]}"
 done
 
 echo
-mkdir individual_results
-mv PXD* individual_results/
+
+# mkdir individual_results
+# mv PXD* individual_results/
 echo
 echo "added experimental design to results"
 
@@ -87,19 +89,19 @@ echo "added experimental design to results"
 #         collate all results in one output table            #
 #------------------------------------------------------------#
 echo 
-if [ ! -d "$DATA/combined_results" ]; 
-  then mkdir $DATA/combined_results
+if [ ! -d "$INPUT/combined_results" ]; 
+  then mkdir $INPUT/combined_results
 else
-  mv $DATA/combined_results $ARCHIVE/results
+  mv $INPUT/combined_results $ARCHIVE/results
   mv $ARCHIVE/results/combined_results "$ARCHIVE/results/combined_final.$(date)"
-  mkdir $DATA/combined_results
+  mkdir $INPUT/combined_results
 fi
 
 # needs to overwite
-find $DATA -name 'PXD*_parsed.txt' -exec mv -it $DATA/combined_results {} \;
+find $DATA -name 'PXD*_parsed.txt' -exec mv -it $INPUT/combined_results {} \;
 echo
 echo
-Rscript $SCRIPTS/02_make_output_table.R --DIR "$DATA/combined_results/"
+Rscript $SCRIPTS/02_make_output_table.R --DIR "$INPUT/combined_results/"
 echo
 echo "results table created"
 
@@ -109,7 +111,7 @@ echo "results table created"
 #------------------------------------------------------------#
 echo 
 Rscript $SCRIPTS/03_adding_consequence_to_output_table.R \
-        --DATA "$DATA" --META "$META" --SIZES "$SIZES"
+        --DATA "$INPUT" --META "$META" --SIZES "$SIZES"
 echo
 echo
 echo "metadata added"
@@ -129,7 +131,7 @@ else
 fi
 
 Rscript $SCRIPTS/04_convert_results_to_json_working.R \
-        --DATA "$DATA" --EXAMPLES "$EXAMPLES" --OUTPUT "$OUTPUT"
+        --DATA "$INPUT" --EXAMPLES "$EXAMPLES" --OUTPUT "$OUTPUT"
 echo
 echo "converted table data to json"
 echo
