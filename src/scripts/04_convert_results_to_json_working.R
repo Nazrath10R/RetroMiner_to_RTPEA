@@ -77,7 +77,7 @@ write.json(counter_data, paste(example,"/CounterData.json", sep = ""))
 json_copy <- fromJSON(paste(example,"/example.json", sep = ""))
 
 # read in RetroMiner output
-table <- read.table(paste(dir, "/final/output_table_with_consequence.txt", sep = ""), sep= "\t", header = TRUE)
+table <- read.table(paste(dir, "/combined_results/output_table_with_consequence.txt", sep = ""), sep= "\t", header = TRUE)
 
 # add fields for manual description
 # Consequence table goes here
@@ -235,7 +235,7 @@ output_to_json_conversion <- function(y) {
 
 for(z in 1:length(pxd_list)) {
   # print("")
-  print(paste("converted to json: ", pxd_list[z]))
+  print(paste(paste(z,"/",length(pxd_list)," converted to json: "), pxd_list[z]))
   output_to_json_conversion(z)
   # print("")  
 }

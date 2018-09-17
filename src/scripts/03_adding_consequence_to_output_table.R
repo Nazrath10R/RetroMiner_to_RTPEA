@@ -22,7 +22,7 @@ size_data <- argv$SIZES
 # setwd("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/retrominer_output/results")
 setwd(dir)
 
-table <- read.table(paste(dir,"/final/output_table.txt", sep = ""), sep= "\t", header = TRUE)
+table <- read.table(paste(dir,"/combined_results/output_table.txt", sep = ""), sep= "\t", header = TRUE)
 
 consequence_table <- read.table(paste(metadata, "/consequence.txt", sep= ""), sep = "\t", header = TRUE)
 
@@ -71,7 +71,7 @@ for(i in 1:length(unique(table$Dataset))) {
       
       rep(as.numeric(size_table[which(size_table$PXD==as.character(pxd)),]$size), nrow(table[which(table$Dataset==pxd),]))
     
-    print(paste("added metadata to: ", pxd))
+    print(paste(paste(i, "/", length(unique(table$Dataset)), "added metadata to: "), pxd))
   
     
   }
@@ -79,7 +79,7 @@ for(i in 1:length(unique(table$Dataset))) {
 }
 
 
-write.table(table, paste(dir, "/final/output_table_with_consequence.txt", sep = ""), sep = "\t")
+write.table(table, paste(dir, "/combined_results/output_table_with_consequence.txt", sep = ""), sep = "\t")
 
 
 

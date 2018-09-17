@@ -11,8 +11,8 @@
 #                                                           #
 
 #============================================================#
-# sh create_results_table.sh ARGS
-# sh population_script.sh
+# sh population_script.sh ARGS
+# sh src/population_script.sh
 #============================================================#
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -28,7 +28,7 @@ WD=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA
 DIR=$WD/src
 SCRIPTS=$WD/src/scripts
 
-DATA=$WD/input/retrominer_results
+DATA=$WD/input/retrominer_results/individual_results
 META=$WD/input/metadata
 SIZES=$WD/input/sizes
 
@@ -66,10 +66,20 @@ echo "filtration completed"
 #------------------------------------------------------------#
 echo
 echo
+COUNTER=0
+
 for i in "${PXD[@]}"
-  do Rscript $SCRIPTS/01_parser_argumented.R \
+  do 
+  COUNTER=$(($COUNTER + 1 ))
+  echo "$COUNTER of ${#PXD[@]}"
+
+  Rscript $SCRIPTS/01_parser_argumented.R \
               --PXD "$i" --DIR "$DATA"
 done
+
+echo
+mkdir individual_results
+mv PXD* individual_results/
 echo
 echo "added experimental design to results"
 
@@ -77,20 +87,22 @@ echo "added experimental design to results"
 #         collate all results in one output table            #
 #------------------------------------------------------------#
 echo 
-if [ ! -d "$DATA/final" ]; 
-  then mkdir $DATA/final
+if [ ! -d "$DATA/combined_results" ]; 
+  then mkdir $DATA/combined_results
 else
-  mv $DATA/final $ARCHIVE/results
-  mv $ARCHIVE/results/final "$ARCHIVE/results/final.$(date)"
-  mkdir $DATA/final
+  mv $DATA/combined_results $ARCHIVE/results
+  mv $ARCHIVE/results/combined_results "$ARCHIVE/results/combined_final.$(date)"
+  mkdir $DATA/combined_results
 fi
 
 # needs to overwite
-find $DATA -name 'PXD*_parsed.txt' -exec mv -it $DATA/final {} \;
+find $DATA -name 'PXD*_parsed.txt' -exec mv -it $DATA/combined_results {} \;
 echo
-Rscript $SCRIPTS/02_make_output_table.R --DIR "$DATA/final/"
+echo
+Rscript $SCRIPTS/02_make_output_table.R --DIR "$DATA/combined_results/"
 echo
 echo "results table created"
+
 
 #------------------------------------------------------------#
 #         collate all results in one output table            #
@@ -148,6 +160,6 @@ echo
 echo "fixed json files"
 echo
 
-
-
+rm -r $ARCHIVE/results/*
+rm -r $ARCHIVE/table/*
 

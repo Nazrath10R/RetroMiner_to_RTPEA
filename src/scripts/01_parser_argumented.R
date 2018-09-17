@@ -1,7 +1,5 @@
 #!/usr/bin/Rsript
 
-# Rscript parser_argumented.R --PXD "PXD00xxxx" 
-
 ## Create final result table ##
 # combine experimental design and filtered reports
 
