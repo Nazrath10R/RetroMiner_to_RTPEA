@@ -209,7 +209,7 @@ else
   mkdir $OUTPUT/chromosome
 fi
 
-Rscript $SCRIPTS/08_ideogram.R
+Rscript $SCRIPTS/08_ideogram.R --EXAMPLES "$EXAMPLES" --OUTPUT "$OUTPUT"
 echo
 
 
@@ -221,5 +221,6 @@ echo
 rm -r $ARCHIVE/results/*
 rm -r $ARCHIVE/table/*
 rm -r $ARCHIVE/protvista/*
+rm -r $ARCHIVE/chromosome/*
 echo "archive cleared"
 echo

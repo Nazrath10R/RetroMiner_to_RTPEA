@@ -1,12 +1,32 @@
 #!/usr/bin/Rscript
-suppressMessages(library("argparser")) 
 
 rm(list=ls())
 
 #### Libraries #### 
+suppressMessages(library("argparser"))
 suppressMessages(library(Biostrings))
 suppressMessages(library("jsonlite"))   # read / write jSON files in R
 # library(seqLogo)
+
+########################################
+
+parser <- arg_parser("This parser contains the input arguments")
+
+parser <- add_argument(parser, "--OUTPUT",
+                       help = "output directory")
+parser <- add_argument(parser, "--EXAMPLES",
+                       help = "path to directory with example files")
+
+argv   <- parse_args(parser)
+
+output <- argv$OUTPUT
+example <- argv$EXAMPLES
+
+
+# setwd("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA")
+
+
+########################################
 
 print_json <- function(x) {
   x.json <- toJSON(x, pretty = TRUE, na='string', auto_unbox = TRUE)
@@ -18,19 +38,15 @@ write.json <- function(x, file = "", ...) {
   write(x.json, file=file)
 }
 
-
-
-#### working directory #### 
-setwd("/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA")
-
+########################################
 
 # HS_genomic_table <- read.table("./HS_genomic_table.txt", sep = "\t", header = TRUE)
 
-HS_genomic_table <- read.table("example_files/genomic_table.txt", sep = "\t", header = TRUE)
+HS_genomic_table <- read.table(paste(example,"/genomic_table.txt", sep = ""), sep = "\t", header = TRUE)
 HS_genomic_table <- HS_genomic_table[1:(nrow(HS_genomic_table)-6),]
 
 
-chr_json <- fromJSON("example_files/chr.json")
+chr_json <- fromJSON(paste(example,"/chr.json", sep = ""))
 
 
 # duplication
@@ -46,9 +62,9 @@ chr_json$name <- names
 
 
 ## extract chr numbers
-grep("chr", HS_genomic_table$genomic_location)
+# grep("chr", HS_genomic_table$genomic_location)
 
-unlist(strsplit(as.character(HS_genomic_table$genomic_location), split = "chr"))
+# unlist(strsplit(as.character(HS_genomic_table$genomic_location), split = "chr"))
 
 
 chr_no <- unlist(strsplit(as.character(HS_genomic_table$genomic_location), split = "range="))
@@ -88,7 +104,7 @@ chr_json$stop <- as.numeric(chr_json$stop)
 
 
 # print_json(chr_json)
+# write_json(chr_json, path="output/chromosome/chromosome_2.json")
 
-
-write.json(chr_json, path="output/chromosome/chromosome_2.json")
+write.json(chr_json, file=paste(output,"/chromosome/chromosome_2.json", sep = ""))
 
