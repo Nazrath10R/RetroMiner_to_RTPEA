@@ -24,6 +24,7 @@
 
 ## Set up all path variables
 BASE_DIR=/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA
+RETROMINER=/data/SBCS-BessantLab/naz/pride_reanalysis
 
 DIR=$BASE_DIR/src
 SCRIPTS=$BASE_DIR/src/scripts
@@ -37,6 +38,7 @@ OUTPUT=$BASE_DIR/output
 
 ARCHIVE=$BASE_DIR/z_archive
 EXAMPLES=$BASE_DIR/example_files
+
 
 echo
 cd $DIR
@@ -209,8 +211,32 @@ else
   mkdir $OUTPUT/chromosome
 fi
 
-Rscript $SCRIPTS/08_ideogram.R --EXAMPLES "$EXAMPLES" --OUTPUT "$OUTPUT"
+Rscript $SCRIPTS/08_ideogram.R \
+        --EXAMPLES "$EXAMPLES" --OUTPUT "$OUTPUT"
 echo
+echo "chromosome data generated"
+echo
+sh $SCRIPTS/loading.sh 3
+
+
+
+#------------------------------------------------------------#
+#                generate bar chart data                     #
+#------------------------------------------------------------#
+echo
+if [ ! -d "$OUTPUT/size" ]; 
+  then mkdir $OUTPUT/size
+else
+  mv $OUTPUT/size $ARCHIVE/size
+  mv $ARCHIVE/size/size "$ARCHIVE/size/size.$(date)"
+  mkdir $OUTPUT/size
+fi
+
+du -sh $RETROMINER/outputs/PXD* > $OUTPUT/size/sizes.txt
+
+Rscript 09_sizes.R
+
+
 
 
 
@@ -222,5 +248,6 @@ rm -r $ARCHIVE/results/*
 rm -r $ARCHIVE/table/*
 rm -r $ARCHIVE/protvista/*
 rm -r $ARCHIVE/chromosome/*
+rm -r $ARCHIVE/size/*
 echo "archive cleared"
 echo

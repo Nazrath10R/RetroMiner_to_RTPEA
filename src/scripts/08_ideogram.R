@@ -106,5 +106,5 @@ chr_json$stop <- as.numeric(chr_json$stop)
 # print_json(chr_json)
 # write_json(chr_json, path="output/chromosome/chromosome_2.json")
 
-write.json(chr_json, file=paste(output,"/chromosome/chromosome_2.json", sep = ""))
+write.json(chr_json, file=paste(output,"/chromosome/chromosome.json", sep = ""))
 
