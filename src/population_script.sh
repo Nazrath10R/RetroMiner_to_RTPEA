@@ -63,7 +63,6 @@ sh $SCRIPTS/loading.sh 3
 echo "start filtration"
 # sh $SCRIPTS/custom_report2.sh
 echo "filtration completed"
-sh $SCRIPTS/loading.sh 3
 
 #------------------------------------------------------------#
 #            add experimental design to results              #
@@ -166,9 +165,8 @@ echo
 echo "fixed json files"
 echo
 
-
 #------------------------------------------------------------#
-#           convert output table to json files               #
+#             generate ProtVista json files                  #
 #------------------------------------------------------------#
 echo 
 if [ ! -d "$OUTPUT/protvista" ]; 
@@ -189,10 +187,13 @@ echo
 sh $SCRIPTS/loading.sh 3
 
 
+#------------------------------------------------------------#
+#             merge json files per protein                   #
+#------------------------------------------------------------#
 
-
-
-
+echo
+sh 07_combine_protvista_json_files.sh
+echo
 
 
 

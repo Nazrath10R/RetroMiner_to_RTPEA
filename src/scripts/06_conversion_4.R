@@ -238,7 +238,8 @@ for(pxd_id in 1:length(pxd_list)) {
       
       if(pxd_id<10) { pxd_id_print <- paste(0, pxd_id, sep="") } else { pxd_id_print <- pxd_id }
 
-      print(paste("(", pxd_id_print, "of", length(pxd_list), ")" ,paste("ProtVista json generated: ", PXD, sep = " "), sep = " "))
+      print(paste("(", pxd_id_print, "of", length(pxd_list), ")" , 
+                  paste("ProtVista json generated:", PXD, sep = " "), sep = " "))
     }
   }
 }

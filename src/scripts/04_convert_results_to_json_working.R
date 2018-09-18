@@ -236,7 +236,8 @@ output_to_json_conversion <- function(y) {
 for(z in 1:length(pxd_list)) {
   # print("")
   if(z < 10) {print_z <- paste(0,z, sep = "") } else {print_z <- z}
-  print(paste(paste("(",print_z,"/",length(pxd_list),")"," converted to json: "), pxd_list[z]))
+  print(paste(paste("(",print_z,"/",length(pxd_list),")",
+                    "converted to json: "), pxd_list[z]))
   output_to_json_conversion(z)
   # print("")  
 }
