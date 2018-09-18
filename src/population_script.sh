@@ -166,7 +166,7 @@ echo "fixed json files"
 echo
 
 #------------------------------------------------------------#
-#             generate ProtVista json files                  #
+#               generate ProtVista json files                #
 #------------------------------------------------------------#
 echo 
 if [ ! -d "$OUTPUT/protvista" ]; 
@@ -188,16 +188,29 @@ sh $SCRIPTS/loading.sh 3
 
 
 #------------------------------------------------------------#
-#             merge json files per protein                   #
+#               merge json files per protein                 #
 #------------------------------------------------------------#
-
 echo
 sh $SCRIPTS/07_combine_protvista_json_files.sh $OUTPUT/protvista $EXAMPLES
 echo
+echo "combined json files per protein"
+echo
 
 
+#------------------------------------------------------------#
+#                generate chromosome data                    #
+#------------------------------------------------------------#
+echo
+if [ ! -d "$OUTPUT/chromosome" ]; 
+  then mkdir $OUTPUT/chromosome
+else
+  mv $OUTPUT/chromosome $ARCHIVE/chromosome
+  mv $ARCHIVE/chromosome/chromosome "$ARCHIVE/chromosome/chromosome.$(date)"
+  mkdir $OUTPUT/chromosome
+fi
 
-
+Rscript $SCRIPTS/08_ideogram.R
+echo
 
 
 
