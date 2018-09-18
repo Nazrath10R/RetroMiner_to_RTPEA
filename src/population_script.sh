@@ -192,7 +192,7 @@ sh $SCRIPTS/loading.sh 3
 #------------------------------------------------------------#
 
 echo
-sh 07_combine_protvista_json_files.sh
+sh $SCRIPTS/07_combine_protvista_json_files.sh $OUTPUT/protvista $EXAMPLES
 echo
 
 

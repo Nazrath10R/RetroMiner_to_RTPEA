@@ -1,7 +1,11 @@
 #!/bin/bash
 
 # DIR="/Users/nazrathnawaz/Dropbox/PhD/retroelement_expression_atlas/RetroMiner_to_RTPEA/Protvista/results"
-DIR="/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/output/protvista"
+# DIR="/data/SBCS-BessantLab/naz/RetroMiner_to_RTPEA/output/protvista"
+
+DIR=$1
+EXAMPLE=$2
+
 cd $DIR
 
 # loop for both LINE-1 proteins
@@ -28,7 +32,7 @@ do
   cd ..
 
   # add headers and sequence and finalise json structure
-  cat ../orf${i}_head.json > complete_ORF$i.jSON
+  cat $EXAMPLE/orf${i}_head.json > complete_ORF$i.jSON
   cat ORF$i/all_features_ORF$i.json >> complete_ORF$i.jSON
   echo "]}" >> complete_ORF$i.jSON
 
