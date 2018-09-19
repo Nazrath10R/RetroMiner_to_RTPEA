@@ -234,7 +234,16 @@ fi
 
 du -sh $RETROMINER/outputs/PXD* > $OUTPUT/size/sizes.txt
 
-Rscript 09_sizes.R
+sh 09_sizes.sh
+
+
+
+
+
+
+
+
+# Rscript 10_sizes.R
 
 
 
