@@ -3,10 +3,10 @@
 # cd /data/SBCS-BessantLab/naz/pride_reanalysis/outputs
 # ls -1 > sizes.txt
 
-ls -1 $RETROMINER/outputs/ | grep "PXD*" > $OUTPUT/size/sizes.txt
+ls -1 $RETROMINER/outputs/ | grep "PXD*" > $OUTPUT/size/tmp_size_list.txt
+sed "s/_old//g" $OUTPUT/size/tmp_size_list.txt > $OUTPUT/size/size_list.txt
 
-
-# gsub old out
+# sed -i "s/_old//g" $OUTPUT/size/tmp_size_list.txt > $OUTPUT/size/tmp_size_list.txt
 
 # PXD=PXD002211
 
@@ -16,7 +16,7 @@ cd $OUTPUT/size
 # output_to_convert2.txt
 
 # FOLDERS=$(cat /data/SBCS-BessantLab/naz/pride_reanalysis/outputs/sizes.txt)
-readarray -t FOLDERS < $OUTPUT/size/sizes.txt
+readarray -t FOLDERS < $OUTPUT/size/size_list.txt
 COUNTER=${#FOLDERS[@]}
 # COUNTER=6
 
@@ -29,10 +29,10 @@ for y in "${FOLDERS[@]}"
   # echo $y
   echo -en "\033[0m"
 
-  wget -O ${y}_files.json https://www.ebi.ac.uk:443/pride/ws/archive/file/list/project/$y --no-check-certificate 2> files.out
+  wget -O ${y}_files.json https://www.ebi.ac.uk:443/pride/ws/archive/file/list/project/$y --no-check-certificate 2>> files.out
   # jq '.list[] | select(.fileName | contains(".mgf") ) | .fileSize ' ${y}_files.json >> sizes.txt
   jq '.list[] | select(.fileName | contains(".mgf"| ".MGF") ) | .fileSize ' ${y}_files.json >> ${y}_size.txt
-  rm ${y}_files.json
+  # rm ${y}_files.json
   echo "$COUNTER of ${#FOLDERS[@]} PXD size: $y"
 done
 
